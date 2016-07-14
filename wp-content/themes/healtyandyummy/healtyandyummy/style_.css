@@ -1,0 +1,688 @@
+/*
+Theme Name: browngraphic
+Author: kobaDesigns
+*/
+@charset "UTF-8";
+@-webkit-keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+@-moz-keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+@-o-keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+@keyframes fadeIn{0%{opacity:0;}100%{opacity:1;}}
+
+/**** Body********************************************************/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+	border:0;
+	font-family:inherit;
+	font-size:100%;
+	font-style:inherit;
+	font-weight:inherit;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+	}
+html{
+	font-size:62.5%;
+	overflow-y:scroll;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	}
+	
+.video-wrapper-feat{
+	position: relative;
+	 padding-bottom: 53.25%;
+	 padding-top: 30px;
+	 height: 0;
+	;
+	}
+.video-wrapper iframe {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 ;
+	}
+.video-wrapper-feat iframe {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 ;
+	}
+#embed iframe {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 ;
+	}
+body{
+	background:#FFF;
+	text-align:center;
+	-webkit-font-smoothing:antialiased;
+	}
+article,aside,details,figcaption,figure,footer,header,nav,section{
+	display:block;
+	}
+ol,ul{
+	list-style:none;
+	}
+table{
+	border-collapse:separate;
+	border-spacing:0;
+	}
+caption,th,td{
+	font-weight:normal;
+	text-align:left;
+	}
+blockquote:before,blockquote:after,q:before,q:after{
+	content:"";
+	}
+blockquote,q{
+	quotes:"" "";
+	}
+a{
+	text-decoration:none;
+	}
+a:focus{
+	outline:thin dotted;
+	}
+a:hover,a:active{
+	outline:0;
+	}
+a img{
+	border:0;
+	}
+body,button,input,select,textarea{
+	color:#404040;
+	font-family:"adobe-garamond-pro",serif;
+	font-size:16px;
+	font-size:1.6rem;
+	line-height:1.5;
+	}
+h1,h2,h3,h4,h5,h6{
+	clear:both;
+	}
+hr{
+	background-color:#ccc;
+	border:0;
+	height:1px;
+	margin-bottom:1.5em;
+	}
+p{
+	margin-bottom:.5em;
+	}
+ul,ol{
+	margin:0 0;
+	}
+ul{
+	list-style:none;
+	}
+ol{
+	list-style:decimal;
+	}
+li>ul,li>ol{
+	margin-bottom:0;
+	margin-left:1.5em;
+	}
+dt{
+	font-weight:bold;
+	}
+dd{
+	margin:0 1.5em 1.5em;
+	}
+b,strong{
+	font-weight:bold;
+	}
+dfn,cite,em,i{
+	font-style:italic;
+	}
+blockquote{
+	margin:0 1.5em;
+	}
+address{
+	margin: 0 auto .5em;
+	text-align: center;
+	color: black;
+	font-family: Museo_Slab_500;
+	font-size: 12px;
+	}
+pre{
+	background:#eee;
+	font-family:"Courier 10 Pitch",Courier,monospace;
+	font-size:15px;
+	font-size:1.5rem;
+	line-height:1.6;
+	margin-bottom:1.6em;
+	padding:1.6em;
+	overflow:auto;
+	max-width:100%;
+	}
+code,kbd,tt,var{
+	font:15px Monaco,Consolas,"Andale Mono","DejaVu Sans Mono",monospace;
+	}
+abbr,acronym{
+	border-bottom:1px dotted #666;
+	cursor:help;
+	}
+mark,ins{
+	background:#fff9c0;
+	text-decoration:none;
+	}
+sup,sub{
+	font-size:75%;
+	height:0;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+	}
+sup{
+	bottom:1ex;
+	}
+sub{
+	top:.5ex;
+	}
+small{
+	font-size:75%;
+	}
+big{
+	font-size:125%;
+	}
+figure{
+	margin:0;
+	}
+table{
+	margin:0 0 1.5em;
+	width:100%;
+	}
+th{
+	font-weight:bold;
+	}
+img{
+	height:auto;
+	max-width:100%;
+	}
+button,input,select,textarea{
+	font-size:100%;
+	margin:0;
+	vertical-align:baseline;
+	*vertical-align:middle;
+	}
+button,input{
+	line-height:normal;
+	}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{
+	border:none;
+	background:#FFF;
+	cursor:pointer;
+	-webkit-appearance:button;
+	font-family:'adam',sans-serif;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:30px;
+	color:#000;
+	-webkit-transition:all .3s ease-out;
+	-moz-transition:all .3s ease-out;
+	-o-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+	}
+button:hover,html input[type="button"]:hover,input[type="reset"]:hover,input[type="submit"]:hover{
+	background-color:none;
+	}
+input[type="checkbox"],input[type="radio"]{
+	box-sizing:border-box;
+	padding:0;
+	}
+input[type="search"]{
+	-webkit-appearance:textfield;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	}
+input[type="search"]::-webkit-search-decoration{
+	-webkit-appearance:none;
+	}
+button::-moz-focus-inner,input::-moz-focus-inner{
+	border:0;
+	padding:0;
+	}
+input[type="text"],input[type="email"],input[type="password"],input[type="search"],textarea{
+	color:#666;
+	border:none;
+	border-radius:1px;
+	}
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus,input[type="search"]:focus,textarea:focus{
+	color:#111;
+	}
+input[type="text"],input[type="email"],input[type="password"],input[type="search"]{
+	padding:0;
+	background-color:#FFF;
+	}
+textarea{
+	overflow:auto;
+	padding-left:3px;
+	vertical-align:top;
+	width:98%;
+	background-color:#f0f0f0;
+	}
+.comment-notes{
+	display:none;
+	}
+.comment-form-author{
+	margin-top:8%;
+	}
+.required{
+	display:none;
+	}
+#map_canvas img{
+	max-width:none!important;
+	}
+a{
+	color:#000;
+	-webkit-transition:all .3s ease-out;
+	-moz-transition:all .3s ease-out;
+	-o-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+	}
+a:visited{
+	color:#370A03;
+	}
+a:hover,a:focus,a:active{
+	color:#370A03;
+	}
+.alignleft{
+	display:inline;
+	float:left;
+	margin-right:1.5em;
+	}
+.alignright{
+	display:inline;
+	float:right;
+	margin-left:1.5em;
+	}
+.aligncenter{
+	clear:both;
+	display:block;
+	margin:0 auto;
+	}
+::selection{
+	background:#FFF;
+	color:#FC0;
+}
+::-moz-selection {
+	background:#FFF;
+	color:#370A03;
+}
+.inn{
+	-webkit-animation-name:fadeIn;
+	-moz-animation-name:fadeIn;
+	-o-animation-name:fadeIn;
+	animation-name:fadeIn;
+	-webkit-animation-delay:0s;
+	-moz-animation-delay:0s;
+	-o-animation-delay:0s;
+	animation-delay:0s;
+	-webkit-animation-duration:2s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-duration:2s;
+	-moz-animation-fill-mode:both;
+	-o-animation-duration:2s;
+	-o-animation-fill-mode:both;
+	animation-duration:2s;
+	animation-fill-mode:both;
+	opacity:1;
+}
+/**** Fonts********************************************************/
+@font-face {
+    font-family: 'brandon_bold_it';
+    src: url('css/fonts/brandon_bld_it-webfont.eot');
+    src: url('css/fonts/brandon_bld_it-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_bld_it-webfont.woff') format('woff'),
+url('css/fonts/brandon_bld_it-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_bld_it-webfont.svg#brandon_grotesquebold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_bold';
+    src: url('css/fonts/brandon_bld-webfont.eot');
+    src: url('css/fonts/brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_bld-webfont.woff') format('woff'),
+url('css/fonts/brandon_bld-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_bld-webfont.svg#brandon_grotesquebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_black_it';
+    src: url('css/fonts/brandon_blk_it-webfont.eot');
+    src: url('css/fonts/brandon_blk_it-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_blk_it-webfont.woff') format('woff'),
+url('css/fonts/brandon_blk_it-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_blk_it-webfont.svg#brandon_grotesqueblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_black';
+    src: url('css/fonts/brandon_blk-webfont.eot');
+    src: url('css/fonts/brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_blk-webfont.woff') format('woff'),
+url('css/fonts/brandon_blk-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_light_it';
+    src: url('css/fonts/brandon_light_it-webfont.eot');
+    src: url('css/fonts/brandon_light_it-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_light_it-webfont.woff') format('woff'),
+url('css/fonts/brandon_light_it-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_light_it-webfont.svg#brandon_grotesquelight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_light';
+    src: url('css/fonts/brandon_light-webfont.eot');
+    src: url('css/fonts/brandon_light-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_light-webfont.woff') format('woff'),
+url('css/fonts/brandon_light-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_light-webfont.svg#brandon_grotesquelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_medium_it';
+    src: url('css/fonts/brandon_med_it-webfont.eot');
+    src: url('css/fonts/brandon_med_it-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_med_it-webfont.woff') format('woff'),
+url('css/fonts/brandon_med_it-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_med_it-webfont.svg#brandon_grotesqueMdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_medium';
+    src: url('css/fonts/brandon_med-webfont.eot');
+    src: url('css/fonts/brandon_med-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_med-webfont.woff') format('woff'),
+url('css/fonts/brandon_med-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_med-webfont.svg#brandon_grotesquemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_regular_it';
+    src: url('css/fonts/brandon_reg_it-webfont.eot');
+    src: url('css/fonts/brandon_reg_it-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_reg_it-webfont.woff') format('woff'),
+url('css/fonts/brandon_reg_it-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_reg_it-webfont.svg#brandon_grotesqueRgIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_regular';
+    src: url('css/fonts/brandon_reg-webfont.eot');
+    src: url('css/fonts/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_reg-webfont.woff') format('woff'),
+url('css/fonts/brandon_reg-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'brandon_thin_it';
+    src: url('css/fonts/brandon_thin_it-webfont.eot');
+    src: url('css/fonts/brandon_thin_it-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_thin_it-webfont.woff') format('woff'),
+url('css/fonts/brandon_thin_it-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_thin_it-webfont.svg#brandon_grotesquethin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'brandon_thin';
+    src: url('css/fonts/brandon_thin-webfont.eot');
+    src: url('css/fonts/brandon_thin-webfont.eot?#iefix') format('embedded-opentype'),
+url('css/fonts/brandon_thin-webfont.woff') format('woff'),
+url('css/fonts/brandon_thin-webfont.ttf') format('truetype'),
+url('css/fonts/brandon_thin-webfont.svg#brandon_grotesquethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1, h2, h3, h4, h5, h6, p{ font-family:"brandon_regular","ヒラギノ明朝 Pro W3", "小塚明朝 Pro R", "ＭＳ 明朝";-webkit-font-smoothing: antialiased; color:#370A03; z-index:20}
+h1.compTitle{
+	font-size:95px;
+	font-family:"brandon_black";
+	letter-spacing:0.02em;
+	line-height:90px;
+}
+h2{
+	font-size:15px;
+	letter-spacing:0em;
+}
+h2.pageTitle{
+	font-size:76px;
+}
+h2.subTitle{
+	font-size:45px;
+	font-family:"brandon_black";
+	letter-spacing:0.02em;
+	line-height:90px;
+}
+h3{
+	font-size:30px;
+	letter-spacing:1px;
+	font-family:"brandon_regular";
+	text-align:center;
+	
+}
+h4{
+	font-size:20px;
+	letter-spacing:3px;
+	margin-top:15px;
+}
+h5{
+	font-size:20px;
+	letter-spacing:3px;
+	margin:70px 0 20px;
+	font-family:"ヒラギノ明朝 Pro W3", "小塚明朝 Pro R", "ＭＳ 明朝";
+}
+h6{
+	font-size:20px;
+	letter-spacing:2px;
+	font-family:Hei;
+}
+h6.alt{
+	font-size:20px;
+	letter-spacing:2px;
+	font-family:Hei;
+	margin-left:20px;
+}
+
+a{
+	color:#370A03;
+	text-decoration:none;
+	border:none;
+	transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear; 
+	-webkit-transition: color 0.2s linear; 
+	-o-transition: color 0.2s linear;;
+}
+a:hover{
+	color:#FC3;
+}
+.clear:before,.clear:after,[class*="content"]:before,[class*="content"]:after,[class*="site"]:before,[class*="site"]:after{
+	content:'';
+	display:table;
+	}
+.clear:after,[class*="content"]:after,[class*="site"]:after{
+	clear:both;
+	}
+/**** general********************************************************/
+#page{
+	width:100%;
+	border-top:#370A03 10px solid;
+}
+header{
+	widows:90%;
+	margin:30px auto 0;
+}
+.wrapper{
+	width:100%;
+	margin:30px auto;
+}
+.localNav h2{
+	padding:1em 0;
+}
+h1:after {
+	border-bottom: 3px solid #370A03;
+	content: " ";
+	display: block;
+	margin: 15px auto 0;
+	width: 150px;
+}
+#workList ul li{
+	padding:0.25em 0;
+	color:#370A03;
+	font-family:"brandon_bold_it";
+	font-size:15px;
+}
+.compositeWrap{
+	margin-top:3em;
+	padding:0 0 1em;
+	-webkit-animation-name:fadeIn;
+	-moz-animation-name:fadeIn;
+	-o-animation-name:fadeIn;
+	animation-name:fadeIn;
+	-webkit-animation-delay:0s;
+	-moz-animation-delay:0s;
+	-o-animation-delay:0s;
+	animation-delay:0s;
+	-webkit-animation-duration:2s;
+	-webkit-animation-fill-mode:both;
+	-moz-animation-duration:2s;
+	-moz-animation-fill-mode:both;
+	-o-animation-duration:2s;
+	-o-animation-fill-mode:both;
+	animation-duration:2s;
+	animation-fill-mode:both;
+	opacity:1;
+}
+.compositeWrap h1:after{
+	border-bottom:none;
+	content: " ";
+	display: none;
+	margin:0;
+	width: 0px;
+}
+.compositeWrap div{
+	text-align:center;
+}
+.composite{
+	width:1482px;
+	margin:0 auto;
+	padding: 1em;
+}
+.composite img{
+	width:50%;
+	margin:0 0 2em;
+	box-shadow: 0 8px 8px #DDD;
+}
+.composite img.half{
+	width:35%;
+	margin:0 2em 2em 0;
+}
+.composite img.small{
+	width:25%;
+	margin:0 2em 2em 0;
+}
+.composite p{
+	font-size:13px;
+	margin:0;
+}
+.compositeWrap p.compTag{
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	letter-spacing:0.1em;
+	color:#FC0;
+	margin-top:1em;
+	text-transform:lowercase;
+}
+.back a{
+	font-family:"brandon_regular";
+}
+address{
+	margin: 0 auto .5em;
+	text-align: center;
+	color: black;
+}
+address p{
+	font-family:"brandon_regular_it";
+	font-size: 15px;
+}
+@media screen and (max-width:1483px){
+	.composite{
+		width:1182px;
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:1232px){
+	.composite{
+		width:960px;
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:991px){
+	.composite{
+		width:760px;
+		margin:0 auto;
+	}
+}
+@media screen and (max-width:750px){
+	.composite{
+		width:90%;
+		margin:0 auto;
+	}
+	.composite img{
+		width:100%;
+		margin:1em 0;
+	}
+	.composite img.half{
+		width:100%;
+		margin:1em 0;
+	}
+	.composite img.small{
+		width:100%;
+		margin:1em 0;
+	}
+}
+@media screen and (max-width:550px){
+	.composite{
+		width:90%;
+		margin:0 auto;
+	}
+	.composite img{
+		width:100%;
+		margin:1em 0;
+	}
+}
