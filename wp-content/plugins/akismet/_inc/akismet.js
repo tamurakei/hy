@@ -22,27 +22,20 @@ jQuery( function ( $ ) {
 		var thisId = $(this).attr('commentid');
 		$(this).insertAfter('#comment-' + thisId + ' .author strong:first').show();
 	});
-	$('#the-comment-list')
-		.find('tr.comment, tr[id ^= "comment-"]')
-		.find('.column-author a[href^="http"]:first') // Ignore mailto: links, which would be the comment author's email.
-		.each(function () {
-		var linkHref = $(this).attr( 'href' );
-		
-		// Ignore any links to the current domain, which are diagnostic tools, like the IP address link
-		// or any other links another plugin might add.
-		var currentHostParts = document.location.href.split( '/' );
-		var currentHost = currentHostParts[0] + '//' + currentHostParts[2] + '/';
-		
-		if ( linkHref.indexOf( currentHost ) != 0 ) {
-			var thisCommentId = $(this).parents('tr:first').attr('id').split("-");
+	$('#the-comment-list').find('tr.comment, tr[id ^= "comment-"]').find('.column-author a[title]').each(function () {
+		// Comment author URLs are the only URL with a title attribute in the author column.
+		var thisTitle = $(this).attr('title');
 
-			$(this)
-				.attr("id", "author_comment_url_"+ thisCommentId[1])
-				.after(
-					$( '<a href="#" class="remove_url">x</a>' )
-						.attr( 'commentid', thisCommentId[1] )
-						.attr( 'title', WPAkismet.strings['Remove this URL'] )
-				);
+		var thisCommentId = $(this).parents('tr:first').attr('id').split("-");
+
+		$(this).attr("id", "author_comment_url_"+ thisCommentId[1]);
+
+		if (thisTitle) {
+			$(this).after(
+				$( '<a href="#" class="remove_url">x</a>' )
+					.attr( 'commentid', thisCommentId[1] )
+					.attr( 'title', WPAkismet.strings['Remove this URL'] )
+			);
 		}
 	});
 	$('.remove_url').live('click', function () {
@@ -181,8 +174,7 @@ jQuery( function ( $ ) {
 					window.location.reload();
 				}
 				else {
-					// Account for comments that were caught as spam and moved out of the queue.
-					akismet_check_for_spam(offset + limit - result.counts.spam, limit);
+					akismet_check_for_spam(offset + limit, limit);
 				}
 			}
 		);
