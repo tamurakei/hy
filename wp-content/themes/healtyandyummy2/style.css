@@ -169,7 +169,25 @@ h1.bar img{
 }
 
 
-
+/*++++++++++++++++++++++++++++++++++++++++++
+// Online
+++++++++++++++++++++++++++++++++++++++++++*/
+div#container{
+	padding:60px 0 120px;
+	width:600px;
+	padding-left:520px;
+	overflow:hidden;
+}
+#sidebar,
+nav.woocommerce-breadcrumb,
+p.woocommerce-result-count {
+    display: none;
+}
+h1.page-title {
+    margin-bottom: 20px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
