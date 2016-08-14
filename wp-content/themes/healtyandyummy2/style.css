@@ -172,6 +172,10 @@ h1.bar img{
 /*++++++++++++++++++++++++++++++++++++++++++
 // Online
 ++++++++++++++++++++++++++++++++++++++++++*/
+.woocommerce {
+    font-family: BlinkMacSystemFont !important;
+    font-size: 12px;
+}
 input{
  outline:none;	
 }
@@ -329,6 +333,9 @@ strong {
     font-weight: normal !important;
     font-size: 16px !important;
 }
+strong.product-quantity {
+    font-size: 12px !important;
+}
 .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
     border: none;
     padding: 10px 20px;
@@ -406,8 +413,8 @@ tr.order-total .woocommerce-Price-amount {
     letter-spacing: 1px !important;
 }
 #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
-    background: transparent;
-    border-radius: 0;
+    background: transparent !important;
+    border-radius: 0 ;
 }
 input#place_order {
     width: 200px;
@@ -515,6 +522,36 @@ input#billing_address_2 {
     padding: 1px 0 !important;
     margin: 0 0 6px;
 }
+.woocommerce .order_details {
+    margin: 15px 0 15px !important; 
+    list-style: none !important;
+}
+.woocommerce .order_details li {
+    float: none !important;
+    margin-right: 0 !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+    line-height: 28px !important;
+    border-right: none !important;
+    padding-right: 0 !important;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.addresses .col-1 h3,
+.addresses .col-2 h3 {
+    margin: 0;
+}
+header.title {
+    width: 37%;
+    display: inline-block;
+}
+.col-1 address,
+.col-2 address {
+    width: 62%;
+    display: inline-block;
+}
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
