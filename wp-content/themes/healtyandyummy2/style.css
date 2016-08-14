@@ -628,7 +628,7 @@ li.woocommerce-MyAccount-navigation-link a.is-active {
     padding: 0 !important;
     height: auto !important;
 }
-.cart-subtotal td,.cart-discount td,.tax-rate td, .order-total td {
+.cart-subtotal td,.cart-discount td,.tax-rate td, .order-total td,.shipping td{
     text-align: right;
 }
 .cart-discount span.amount {
@@ -641,7 +641,23 @@ li.woocommerce-MyAccount-navigation-link a.is-active {
 .shipping .woocommerce-Price-currencySymbol {
     margin-left: 20px;
 }
-
+.shipping input#calc_shipping_postcode {
+    width: 50% !important;
+}
+.shipping p#calc_shipping_postcode_field {
+    width: 50% !important;
+}
+.shipping button.button {
+    background: #EBE9ED !important;
+    width: 50% !important;
+}
+.return-to-shop a.button {
+    width: auto;
+    background: #ebe9eb !important;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 13px !important;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
