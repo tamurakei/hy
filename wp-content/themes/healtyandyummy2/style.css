@@ -621,6 +621,14 @@ li.woocommerce-MyAccount-navigation-link a.is-active {
 .woocommerce-MyAccount-content {
     padding: 15px 0;
 }
+.woocommerce table.my_account_orders .order-actions .button {
+    margin: 0px;
+    color: #111 !important;
+    font-size: 11px !important;
+    font-weight: normal;
+    padding: 0 !important;
+    height: auto !important;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
