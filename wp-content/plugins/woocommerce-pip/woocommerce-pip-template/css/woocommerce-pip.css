@@ -28,7 +28,10 @@ h2.footer {
 	font: normal 13px/150% Verdana, Arial, Helvetica, sans-serif;
 	-webkit-print-color-adjust: exact;
 }
-
+p {
+    font-size: 12px;
+    line-height: 20px;
+}
 .article {
 	padding: 20px 0;
 }
@@ -48,37 +51,36 @@ h2.footer {
 	width: 100%;
 }
 
-.datagrid table td,
-.datagrid table th {
-	padding: 3px 4px;
-	vertical-align: top;
+.datagrid table td, .datagrid table th {
+    padding: 3px 4px;
+    vertical-align: top;
+    font-weight: normal;
+    font-size: 12px;
 }
-
 .datagrid table thead th {
-	background-color: #576099;
-	color: #FFFFFF;
-	font-size: 14px;
-	font-weight: bold;
-	border-left: 2px solid #FFFFFF;
-	-webkit-print-color-adjust: exact;
+    background-color: transparent;
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    border-left: none;
+    -webkit-print-color-adjust: exact;
 }
 
 .datagrid table tbody td {
-	color: #000000;
-	border: 2px solid #FFFFFF;
-	font-size: 14px;
-	font-weight: normal;
-	background-color: #F5F5F5;
-	-webkit-print-color-adjust: exact;
-	vertical-align: top;
+    color: #000000;
+    border: none;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: transparent;
+    -webkit-print-color-adjust: exact;
+    vertical-align: top;
 }
-
 .datagrid table tfoot td {
 	color: #000000;
-	border: 2px solid #FFFFFF;
+	border: none;
 	font-size: 14px;
 	font-weight: normal;
-	background-color: #F5F5F5;
+	background-color: transparent;
 	-webkit-print-color-adjust: exact;
 }
 

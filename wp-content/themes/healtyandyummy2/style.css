@@ -489,7 +489,7 @@ td.product-name {
 }
 div#s2id_billing_state,
 div#s2id_shipping_state {
-    width: 70% !important;
+    width: 62% !important;
     display: inline-block !important;
 }
 input#billing_address_2,
@@ -657,6 +657,26 @@ li.woocommerce-MyAccount-navigation-link a.is-active {
     display: inline-block;
     font-weight: normal;
     font-size: 13px !important;
+}
+.woocommerce-MyAccount-content label {
+    display: inline-block !important;
+    width: 37% !important;
+}
+.woocommerce-MyAccount-content input {
+    width: 62% !important;
+    display: inline-block !important;
+}
+.woocommerce-MyAccount-content input.button {
+    width: auto !important;
+    background: #ebe9eb !important;
+}
+.woocommerce-EditAccountForm label {
+    width: 37% !important;
+    display: inline-block !important;
+}
+.woocommerce-EditAccountForm input {
+    width: 62% !important;
+    display: inline-block !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
