@@ -466,14 +466,16 @@ td.product-thumbnail {
 td.product-name {
     width: 50% !important;
 }
-.col-1 label {
+.col-1 label,
+.col-2 label {
     width: 20%;
     display: inline-block !important;
     font-family: -webkit-body;
     font-size: 12px;
     color: #000;
 }
-.col-1 input {
+.col-1 input,
+.col-2 input {
     width: 70% !important;
     display: inline-block;
 }
