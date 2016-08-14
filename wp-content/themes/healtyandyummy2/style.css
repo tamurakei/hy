@@ -549,6 +549,7 @@ input#shipping_address_2 {
 header.title {
     width: 37%;
     display: inline-block;
+	vertical-align: top;
 }
 .col-1 address,
 .col-2 address {
@@ -603,6 +604,9 @@ a.added_to_cart.wc-forward {
 .woocommerce a.button.alt {
     color: #F966B4;
     padding: 5px;
+}
+li.woocommerce-MyAccount-navigation-link {
+    display: inline-block;
 }
 li.woocommerce-MyAccount-navigation-link a {
     padding: 6px 12px;
