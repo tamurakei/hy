@@ -255,6 +255,7 @@ th.product-subtotal {
     letter-spacing: 2px;
     margin: 5px 0;
     width: 200px;
+	    background: #ebe9eb !important;
 }
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
     font-size: 11px;
@@ -486,11 +487,13 @@ td.product-name {
     width: 70% !important;
     display: inline-block;
 }
-div#s2id_billing_state {
+div#s2id_billing_state,
+div#s2id_shipping_state {
     width: 70% !important;
     display: inline-block !important;
 }
-input#billing_address_2 {
+input#billing_address_2,
+input#shipping_address_2 {
     width: 90% !important;
 }
 .select2-container .select2-choice {
@@ -512,6 +515,7 @@ input#billing_address_2 {
 }
 .woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select {
     border-color: #000 !important;
+	border:solid 1px !important;
 }
 .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
     float: left !important;
@@ -559,18 +563,18 @@ p.product.woocommerce.add_to_cart_inline {
     display: none;
 }
 .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
-    font-size: 13px;
+    font-size: 13px !important;
     margin: 0;
     line-height: 1;
     cursor: pointer;
     position: relative;
     text-decoration: none;
     overflow: visible;
-    padding: 15px 10px;
+    padding: 15px 10px !important;
     font-weight: normal;
     border-radius: 3px;
     left: auto;
-    color: #F966B4;
+    color: #F966B4 !important;
     background-color: transparent !important;
     border: 0;
     white-space: nowrap;
@@ -583,6 +587,7 @@ p.product.woocommerce.add_to_cart_inline {
     width: 100%;
     height: 100%;
 }
+
 .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
     text-decoration: none;
     background-image: none;
@@ -593,7 +598,24 @@ p.product.woocommerce.add_to_cart_inline {
     background: #f966B4;
 }
 a.added_to_cart.wc-forward {
-    display: none;
+    display: none !important;
+}
+.woocommerce a.button.alt {
+    color: #F966B4;
+    padding: 5px;
+}
+li.woocommerce-MyAccount-navigation-link a {
+    padding: 6px 12px;
+    color: #000;
+    border: 1px solid #000;
+}
+li.woocommerce-MyAccount-navigation-link a:hover,
+li.woocommerce-MyAccount-navigation-link a.is-active {
+    background: #000;
+    color: #FFF;
+}
+.woocommerce-MyAccount-content {
+    padding: 15px 0;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
