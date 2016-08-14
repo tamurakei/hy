@@ -1,6 +1,7 @@
 		<header>
 					<a class="print" href="#" onclick="window.print()"><?php _e('Print', 'woocommerce-pip'); ?></a>
 					<div style="float: left; width: 49%;">
+						 <img src="<?php echo get_template_directory_uri(); ?>/img/logo_ver.png" alt='Healthy&yummy'>
 						<?php echo woocommerce_pip_print_logo(); ?>
 						<?php if ($action == 'print_invoice') { ?>
 						<h3><?php _e('Invoice', 'woocommerce-pip'); ?> (<?php echo woocommerce_pip_invoice_number($order->id); ?>)</h3>
@@ -31,13 +32,13 @@
 							<?php if (get_post_meta($order->id, 'VAT Number', TRUE) && $action == 'print_invoice') : ?>
 								<p><strong><?php _e('VAT:', 'woocommerce-pip'); ?></strong> <?php echo get_post_meta($order->id, 'VAT Number', TRUE); ?></p>
 							<?php endif; ?>
-							<?php if ($order->billing_email) : ?>
+<!--						<?php if ($order->billing_email) : ?>
 								<p><strong><?php _e('Email:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_email; ?></p>
 							<?php endif; ?>
 							<?php if ($order->billing_phone) : ?>
 								<p><strong><?php _e('Tel:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_phone; ?></p>
 							<?php endif; ?>
-
+-->
 						</div>
 
 						<div style="float:right; width: 49%;">
@@ -87,8 +88,8 @@
 			<table>
 				<thead>
 					<tr>
-					  <th scope="col" style="text-align:left; width: 25%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
-						<th scope="col" style="text-align:left; width: 35%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
+					  <!--<th scope="col" style="text-align:left; width: 25%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>-->
+						<th scope="col" style="text-align:left; width: 55%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 10%;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 30%;"><?php _e('Price', 'woocommerce-pip'); ?></th>
 					</tr>
