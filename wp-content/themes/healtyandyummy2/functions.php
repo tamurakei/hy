@@ -8,6 +8,7 @@ function is_mobile() {
     $pattern = '/'.implode('|', $useragents).'/i';
     return preg_match($pattern, $_SERVER['HTTP_USER_AGENT']);
 }
+/*
 add_action('init', 'add_product_post_type');
 function add_product_post_type() {
     $params = array(
@@ -86,7 +87,13 @@ function create_product_taxonomies() {
 
     register_taxonomy( 'prod_tag', 'product', $args );
 }
-
+*/
 add_theme_support( ‘menus’ );
+
+//add_action ('woocommerce_checkout_after_customer_details', 'my_func');
+//function my_func () {
+//  print '<p>Add Message</p>';
+//}
+
 
 ?>
