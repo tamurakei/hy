@@ -307,8 +307,8 @@ input#coupon_code {
     letter-spacing: 2px;
 }
 .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
-    background-color: transparent;
-    color: #fff;
+    background-color: transparent !important;
+    color: #fff !important;
 }
 .woocommerce table.shop_table {
     border: none;
@@ -344,7 +344,7 @@ strong {
     margin: 0 !important;
     position: relative;
     background-color:transparent;
-    color: #515151;
+    color: #515151 !important;
     border-top:none;
     list-style: none!important;
     width: auto;
@@ -352,7 +352,7 @@ strong {
 }
 .woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before {
     font-family: WooCommerce;
-    content: "";
+    content: "" !important;
     display: inline-block;
     position: absolute;
     top: 1em;
@@ -385,23 +385,23 @@ a.showcoupon {
     padding: 5px;
 }
 .woocommerce table.shop_table {
-    border: none;
+    border: none !important;
     border-radius: 0;
    }
  .woocommerce table.shop_table th {
     font-weight: 500 !important;
-    padding:0;
+    padding:0 0 0 12px !important;
 }
 th.product-name {
-    width: 70%;
+    width: 70% !important;
 }
 .woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
     font-weight: normal;
     border-top: 1px solid rgba(0,0,0,.1);
 }
 tr.order-total .woocommerce-Price-amount {
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 18px !important;
+    letter-spacing: 1px !important;
 }
 #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
     background: transparent;
@@ -410,9 +410,9 @@ tr.order-total .woocommerce-Price-amount {
 input#place_order {
     width: 200px;
     padding: 15px;
-    background: transparent;
-    color: #F966B4;
-    border: 1px solid #F966B4;
+    background: transparent !important;
+    color: #F966B4 !important;
+    border: 1px solid #F966B4 !important;
 }
 input#place_order:hover {
     background: #F966B4;
@@ -422,18 +422,47 @@ input#place_order:hover {
     content: "";
 }
 .woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
-    border:none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    border-radius:0;
-}
+    border:none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+    border-radius:0 !important;
+	background:transparent !important;
+} 
 input#username, input#password {
     background: #EEE;
     border: none;
     padding: 5px 10px;
     font-size: 14px;
     color: #555;
+}
+.woocommerce #content table.cart td.actions .coupon, .woocommerce table.cart td.actions .coupon, .woocommerce-page #content table.cart td.actions .coupon, .woocommerce-page table.cart td.actions .coupon {
+    float: none !important;
+}
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    float: right !important;
+    width: 68% !important;
+}
+.woocommerce-Price-amount.amount {
+    margin: 0 !important;
+}
+.woocommerce form .form-row select, .woocommerce-page form .form-row select {
+    width: 50% !important;
+}
+.woocommerce table.shop_table td {
+    vertical-align: baseline !important;
+}
+th.product-quantity {
+    text-align: center;
+}
+th.product-thumbnail {
+    display: none !important;
+}
+td.product-thumbnail {
+    display: none !important;
+}
+td.product-name {
+    width: 50% !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
