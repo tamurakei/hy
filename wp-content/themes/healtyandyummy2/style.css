@@ -172,6 +172,9 @@ h1.bar img{
 /*++++++++++++++++++++++++++++++++++++++++++
 // Online
 ++++++++++++++++++++++++++++++++++++++++++*/
+input{
+ outline:none;	
+}
 div#container{
 	padding:60px 0 120px;
 	width:600px;
@@ -180,7 +183,8 @@ div#container{
 }
 #sidebar,
 nav.woocommerce-breadcrumb,
-p.woocommerce-result-count {
+p.woocommerce-result-count,
+form.woocommerce-ordering {
     display: none;
 }
 h1.page-title {
@@ -189,7 +193,248 @@ h1.page-title {
     letter-spacing: 1px;
     font-size: 15px;
 }
-
+.woocommerce h2 {
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.products h3 {
+    padding: 15px 0 0;
+}
+.col-1 h3, .col-2 h3, #order_review_heading {
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 25px 0 0;
+}
+span.amount {
+    display: block;
+    margin: 15px 0;
+}
+a.add_to_cart_button {
+    position: relative;
+    border: 1px solid #F966B4;
+    color: #F966B4;
+    display: inline-block;
+    padding: 10px 20px;
+}
+a.add_to_cart_button:hover {
+    color: #FFF;
+    background: #F966B4;
+}
+.woocommerce table.shop_table {
+    border:none;
+    border-radius: 0;
+}
+.woocommerce table.shop_table th {
+    font-weight: 100;
+    padding: 0px 12px;
+    letter-spacing: 1px;
+}
+th.product-name,
+th.product-price,
+th.product-quantity,
+th.product-subtotal {
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.woocommerce #content table.cart td.actions .input-text, .woocommerce table.cart td.actions .input-text, .woocommerce-page #content table.cart td.actions .input-text, .woocommerce-page table.cart td.actions .input-text {
+    width: auto;
+    padding: 5px 10px;
+    display: block;
+    margin: 5px;
+}
+.woocommerce .cart .button, .woocommerce .cart input.button {
+    float: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 5px 0;
+    width: 200px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-size: 11px;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: .618em 1em;
+    font-weight: 500;
+    border-radius: 0;
+    left: auto;
+    color: #515151;
+    background-color: #ddd;
+    border: 0;
+    white-space: nowrap;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+input.qty {
+    border: none;
+    background: #eee;
+    padding: 5px 0;
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size: 14px;
+}
+input#coupon_code {
+    width: 200px;
+    margin-left: auto;
+    margin-right: 0;
+}
+.wc-proceed-to-checkout {
+    width: 200px;
+    margin-left: auto;
+    margin-right: 0;
+    background: transparent;
+    text-align: center;
+    border: 1px solid #F966B4;
+}
+.wc-proceed-to-checkout:hover {
+    background:#F966B4;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: transparent;
+    color: #F966B4;
+    -webkit-font-smoothing: antialiased;
+    font-family: BlinkMacSystemFont;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.woocommerce table.shop_table {
+    border: none;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 0;
+    vertical-align: middle;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: BlinkMacSystemFont;
+    font-weight: normal;
+}
+strong {
+    font-weight: normal;
+    font-size: 16px;
+}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+    border: none;
+    padding: 10px 20px;
+   	margin: 0;
+    text-align: left;
+    border-radius: 0;
+    background: #eee;
+}
+.woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+    font-weight: normal;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
+    padding:0 !important;
+    margin: 0 !important;
+    position: relative;
+    background-color:transparent;
+    color: #515151;
+    border-top:none;
+    list-style: none!important;
+    width: auto;
+    word-wrap: break-word;
+}
+.woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before {
+    font-family: WooCommerce;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 1em;
+    left: 1.5em;
+}
+a.showlogin,
+a.showcoupon {
+    border-bottom: 1px solid #666;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: none;
+    width: 80%;
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    float: none;
+    width: 80%;
+}
+.woocommerce-billing-fields input {
+    background: #EEE;
+    border: none;
+    padding: 7px;
+    font-size: 12px;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: 1;
+    padding: 5px;
+}
+.woocommerce table.shop_table {
+    border: none;
+    border-radius: 0;
+   }
+ .woocommerce table.shop_table th {
+    font-weight: 500 !important;
+    padding:0;
+}
+th.product-name {
+    width: 70%;
+}
+.woocommerce table.shop_table tbody th, .woocommerce table.shop_table tfoot td, .woocommerce table.shop_table tfoot th {
+    font-weight: normal;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+tr.order-total .woocommerce-Price-amount {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+    background: transparent;
+    border-radius: 0;
+}
+input#place_order {
+    width: 200px;
+    padding: 15px;
+    background: transparent;
+    color: #F966B4;
+    border: 1px solid #F966B4;
+}
+input#place_order:hover {
+    background: #F966B4;
+    color: #FFF;
+}
+.woocommerce .woocommerce-error:before {
+    content: "";
+}
+.woocommerce form.checkout_coupon, .woocommerce form.login, .woocommerce form.register {
+    border:none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    border-radius:0;
+}
+input#username, input#password {
+    background: #EEE;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #555;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
