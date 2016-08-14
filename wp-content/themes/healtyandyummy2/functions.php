@@ -87,4 +87,6 @@ function create_product_taxonomies() {
     register_taxonomy( 'prod_tag', 'product', $args );
 }
 
+add_theme_support( ‘menus’ );
+
 ?>

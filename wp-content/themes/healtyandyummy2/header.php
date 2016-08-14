@@ -46,12 +46,8 @@
 				<h1 class="bar"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_ver.png"  alt="Healty &amp; Yummy"></h1>
 		</header>
 		<div class="navArea">
-			<nav>
-				<ul>
-					<?php wp_list_pages('title_li=&depth=1'); ?>
-					<li><a href="http://store.healthy-yummy.com/items/2301472" target="_blank">ONLINE STORE</a></li>
-				</ul>
-			</nav><!--nav-->
+		<?php wp_nav_menu(); ?>
+
       <div class="copyright">&copy; 2016 healthy & Yummy</div>
 		</div>
 	</div><!--navWrap-->
