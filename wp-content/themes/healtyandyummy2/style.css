@@ -105,6 +105,22 @@ h1.bar img{
 	font-size:18px;
 	letter-spacing: 1px;
 }
+.navFoot {
+    position: relative;
+    left: 160px;
+    padding: 349px 40px 0 80px;
+    width: 190px;
+    float: left;
+}
+.navFoot div {
+    margin: 10px 0;
+}
+.navFoot a {
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 /*++++++++++++++++++++++++++++++++++++++++++
 // TOP
 ++++++++++++++++++++++++++++++++++++++++++*/
