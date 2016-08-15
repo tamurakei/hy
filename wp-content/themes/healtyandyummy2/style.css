@@ -94,7 +94,7 @@ h2{
 	float:left;
 }
 .navArea .copyright{
-	margin-top:40px;
+	margin-top:20px;
 	font-size:10px;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
@@ -926,6 +926,27 @@ input#omise_card_security_code {
 .u-column1.col-1.woocommerce-Address,
 .u-column2.col-2.woocommerce-Address {
     width: 80% !important;
+}
+.woocommerce-Address-title a.edit {
+    background: #ebe9eb;
+    padding: 3px 5px;
+}
+.woocommerce table.my_account_orders {
+    font-size: 12px !important;
+}
+.woocommerce-ResetPassword label {
+    width: 200px;
+    display: inline-block !important;
+}
+.woocommerce-ResetPassword input#user_login {
+    width: 50%;
+}
+.woocommerce-ResetPassword input.woocommerce-Button.button {
+    width: auto !important;
+    background: #ebe9eb !important;
+}
+.woocommerce-ResetPassword input.woocommerce-Button.button:hover {
+    background: #555 !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
