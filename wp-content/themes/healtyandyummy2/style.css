@@ -817,12 +817,12 @@ small.shipped_via {
 }
 a.shipping-calculator-button {
     padding: 2px 40px;
-    border: #000 1px solid;
-    color: #000;
+    border: #ebe9eb 1px solid;
+    color: #ebe9eb;
 }
 a.shipping-calculator-button:hover {
 	background:#000;
-    color: #FFF;
+    color: #ebe9eb;
 }
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
