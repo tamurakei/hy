@@ -821,10 +821,46 @@ a.shipping-calculator-button {
     color: #555;
 }
 a.shipping-calculator-button:hover {
-	background:#ebe9eb;
-    color: #FFF;
+	background:rgba(235,235,235);
+    color: #555;
 }
-
+#customer_login label {
+    width: 200px !important;
+}
+input#username {
+    width: 50% !important;
+}
+input#password {
+    width: 50% !important;
+}
+#customer_login input.button {
+    width: auto !important;
+    background: #ebe9eb !important;
+}
+#customer_login input.button:hover {
+    background: #555 !important;
+}
+#customer_login input#rememberme {
+    width: 15px !important;
+    margin-left: 15px;
+}
+#customer_login label.inline {
+    width: auto;
+}
+p.woocommerce-LostPassword.lost_password {
+    display: inline-block;
+	margin-top:15px;
+	margin-bottom: 30px;
+    border-bottom: #ebe9eb solid 1px;
+    
+}
+input#reg_email {
+    width: 50% !important;
+    border: none;
+    background: #ebe9eb;
+    padding: 5px 10px;
+    font-size: 14px;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
