@@ -126,6 +126,9 @@ h1.bar img{
 	line-height: 20px;
 	letter-spacing: 1px;
 }
+.articleTxt h3 {
+    margin-top: 27px;
+}
 .articleTxt{
 	font-size: 14px;
 	line-height: 2;
@@ -135,6 +138,10 @@ h1.bar img{
 .price{
 	font-size: 15px;
 	margin: 0 0 30px;
+}
+ul.indent {
+    padding: 10px 30px;
+    list-style: inherit;
 }
 .buybutton {
     border: 1px solid #F966B4;
