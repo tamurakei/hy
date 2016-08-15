@@ -875,7 +875,7 @@ input#reg_email {
     padding: 5px 10px;
     font-size: 14px;
 }
-a.button.wc-forward {
+.woocommerce-message a.button.wc-forward {
     display: none !important;
 }
 .checkout_coupon input.button {
