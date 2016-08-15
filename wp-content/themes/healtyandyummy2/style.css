@@ -162,7 +162,10 @@ li#wpmenucartli {
 .articleTxt{
 	font-size: 14px;
 	line-height: 2;
-	color: #333;
+	color: #000
+}
+.articleTxt a{
+	color: #000
 }
 .articleTxt h3 {
     margin-top: 27px;
@@ -919,6 +922,10 @@ input#omise_card_expiration_year {
 input#omise_card_security_code {
     width: 3em !important;
 	font-size: 12px;
+}
+.u-column1.col-1.woocommerce-Address,
+.u-column2.col-2.woocommerce-Address {
+    width: 80% !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
