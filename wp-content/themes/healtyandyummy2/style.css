@@ -535,7 +535,7 @@ td.product-name {
 }
 .col-1 label,
 .col-2 label {
-    width: 75px;
+    width: 150px;
     display: inline-block !important;
     font-family: -webkit-body;
     font-size: 12px;
@@ -543,17 +543,22 @@ td.product-name {
 }
 .col-1 input,
 .col-2 input {
-    width: 79% !important;
+    width: 50% !important;
     display: inline-block;
 }
-div#s2id_billing_state,
-div#s2id_shipping_state {
-    width: 79% !important;
+div#s2id_billing_state, div#s2id_shipping_state {
+    width: 50% !important;
     display: inline-block !important;
+    border: 1px solid #ebe9eb !important;
 }
-input#billing_address_2,
-input#shipping_address_2 {
-    width: 99% !important;
+#billing_country_field strong {
+    font-size: 13px !important;
+}
+input#createaccount {
+    width: 15px !important;
+}
+.create-account label.checkbox {
+    width: 50% !important;
 }
 .select2-container .select2-choice {
     display: block;
@@ -860,6 +865,19 @@ input#reg_email {
     background: #ebe9eb;
     padding: 5px 10px;
     font-size: 14px;
+}
+a.button.wc-forward {
+    display: none;
+}
+.checkout_coupon input.button {
+    background: #ebe9eb !important;
+}
+.checkout_coupon input.button:hover {
+    background: #555 !important;
+}
+.checkout_coupon p.form-row {
+    width: 150px !important;
+    margin: 15px 0 0 0 !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
