@@ -40,19 +40,20 @@
 <?php include_once("analyticstracking.php") ?>
 
 <div id="wrap">
+	<?php wp_nav_menu(array('menu' => 'cart')); ?>
 	<div id="navwrap">
 		<header>
 				<div id="button"></div>
 				<h1 class="bar"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_ver.png"  alt="Healty &amp; Yummy"></h1>
 		</header>
 		<div class="navArea">
-		<?php wp_nav_menu(); ?>
+		<?php wp_nav_menu(array('menu' => 'sideMenu')); ?>
+		</div>
 		 <div class="navFoot">
 		 	  <div class="account"><a href="https://healthy-yummy.com/my-account">MY ACCOUNT</a></div>
 			  <div class="policy"><a href="https://healthy-yummy.com/order">特定商取引法に関する表示</a></div>
 			  <div class="policy"><a href="https://healthy-yummy.com/policy">PRIVACY POLICY</a></div>
 			<div class="copyright">&copy; 2016 healthy & Yummy</div>
-		</div>
 		</div>
 		
 	</div><!--navWrap-->
