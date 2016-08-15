@@ -901,9 +901,7 @@ input#reg_email {
 .checkout ul.woocommerce-error {
     display: none;
 }
-form.login>p:first-child {
-    display: none;
-}
+
 input#omise_card_name {
     width: 20em !important;
 	font-size: 12px;
