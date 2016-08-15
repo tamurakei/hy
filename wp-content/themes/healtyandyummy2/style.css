@@ -518,12 +518,12 @@ td.product-name {
 }
 div#s2id_billing_state,
 div#s2id_shipping_state {
-    width: 62% !important;
+    width: 79% !important;
     display: inline-block !important;
 }
 input#billing_address_2,
 input#shipping_address_2 {
-    width: 90% !important;
+    width: 99% !important;
 }
 .select2-container .select2-choice {
     display: block;
