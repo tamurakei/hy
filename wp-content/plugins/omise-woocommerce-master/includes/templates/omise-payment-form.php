@@ -20,7 +20,7 @@
 	?>
 	<p class="form-row form-row-wide">
 		<input type='checkbox' name='omise_save_customer_card' id='omise_save_customer_card' /> 
-		<label for="omise_save_customer_card" class="inline">カード番号を保存する</label>
+		<label for="omise_save_customer_card" class="inline">クレジットカードを次回以降も使えるようにする （※カード番号は保存されません。）</label>
 	</p>
 	<?php 
 		}
