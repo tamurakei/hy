@@ -83,6 +83,9 @@ h1.bar{
 h1.bar img{
 	height:630px;
 }
+h2{
+	text-transform:uppercase;
+}
 .navArea{
 	position:fixed;
 	left:160px;
