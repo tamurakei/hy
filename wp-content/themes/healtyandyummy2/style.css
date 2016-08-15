@@ -818,7 +818,7 @@ small.shipped_via {
 a.shipping-calculator-button {
     padding: 2px 40px;
     border: #ebe9eb 1px solid;
-    color: #ebe9eb;
+    color: #555;
 }
 a.shipping-calculator-button:hover {
 	background:#000;
