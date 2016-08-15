@@ -1,8 +1,7 @@
 		<header>
 					<a class="print" href="#" onclick="window.print()"><?php _e('Print', 'woocommerce-pip'); ?></a>
 					<div style="float: left; width: 49%;">
-						 <img src="<?php echo get_template_directory_uri(); ?>/img/logo_ver.png" alt='Healthy&yummy'>
-						<?php echo woocommerce_pip_print_logo(); ?>
+						 <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt='Healthy&yummy' width="300" class="logo">
 						<?php if ($action == 'print_invoice') { ?>
 						<h3><?php _e('Invoice', 'woocommerce-pip'); ?> (<?php echo woocommerce_pip_invoice_number($order->id); ?>)</h3>
 						<?php } else { ?>
@@ -149,7 +148,7 @@
 			<table>
 				<thead>
 					<tr>
-					  <th scope="col" style="text-align:left; width: 22.5%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
+					  <!--<th scope="col" style="text-align:left; width: 22.5%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>-->
 						<th scope="col" style="text-align:left; width: 57.5%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 15%;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 20%;"><?php _e('Total Weight', 'woocommerce-pip'); ?></th>

@@ -20,7 +20,9 @@ Author: Hideji Terada
 
 a{color:#666;text-decoration:none;}
 a:hover{color:#999;}
-
+mark {
+    background: transparent;
+}
 
 body{
 	font-size: 14px;
@@ -678,6 +680,7 @@ li.woocommerce-MyAccount-navigation-link a.is-active {
     width: 62% !important;
     display: inline-block !important;
 }
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
