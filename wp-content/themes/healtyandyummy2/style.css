@@ -121,6 +121,16 @@ h1.bar img{
     font-size: 12px;
     letter-spacing: 1px;
 }
+.menu-cart-container {
+    position: fixed;
+    right: 0;
+    padding: 50px 0 0;
+    width: 190px;
+    float: left;
+}
+li#menu-item-217 {
+    display: none;
+}
 /*++++++++++++++++++++++++++++++++++++++++++
 // TOP
 ++++++++++++++++++++++++++++++++++++++++++*/
