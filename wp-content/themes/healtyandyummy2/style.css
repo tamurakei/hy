@@ -107,8 +107,8 @@ h1.bar img{
 }
 .navFoot {
     position: relative;
-    left: 160px;
-    padding: 349px 40px 0 80px;
+    left: 0;
+    padding: 60px 40px 0 0px;
     width: 190px;
     float: left;
 }
@@ -546,6 +546,12 @@ input#shipping_address_2 {
     border-color: #000 !important;
 	border:solid 1px !important;
 }
+ul.woocommerce-thankyou-order-details.order_details {
+    margin: 15px 0 15px !important;
+    list-style: none !important;
+    border: 1px #000 solid;
+    padding: 10px 30px 20px;
+}
 .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
     float: left !important;
     width: 100% !important;
@@ -580,10 +586,11 @@ header.title {
     display: inline-block;
 	vertical-align: top;
 }
-.col-1 address,
-.col-2 address {
-    width: 62%;
+.col-1 address, .col-2 address {
+    width: 60%;
     display: inline-block;
+    text-align: right;
+    padding: 0;
 }
 p.product.woocommerce.add_to_cart_inline {
     border: none !important;
@@ -739,6 +746,35 @@ i.wpmenucart-icon-shopping-cart-0 {
 #add_payment_method #payment div.payment_box:before, .woocommerce-cart #payment div.payment_box:before, .woocommerce-checkout #payment div.payment_box:before {
     content: "";
     display: none !important;
+}
+.checkout_coupon input#coupon_code {
+    width: 100% !important;
+	padding: 8px !important;
+}
+.checkout_coupon p.form-row {
+    width: 43% !important;
+    margin: 15px 3% 0 0 !important;
+}
+.order_details span.amount {
+    text-align: right;
+}
+small.shipped_via {
+    float: right;
+}
+.order_details td {
+    text-align: right;
+}
+.customer_details td {
+    text-align: right;
+}
+.order_details td.product-name {
+    text-align: left;
+}
+.addresses .col-1 {
+    border-bottom: 1px solid #ebe9eb;
+    margin: 0 0 20px;
+    padding: 20px 0;
+    border-top: 1px solid #ebe9eb;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
