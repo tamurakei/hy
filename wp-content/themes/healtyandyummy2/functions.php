@@ -95,5 +95,11 @@ add_theme_support( ‘menus’ );
 //  print '<p>Add Message</p>';
 //}
 
+//add_action( 'woocommerce_account_menu_items', 'wpo_wcpdf_remove_myaccount_link' );
+
+//function wpo_wcpdf_remove_myaccount_link() {
+//	global $wpo_wcpdf;
+//	remove_action( 'woocommerce_account_menu_items', 'downloads' );
+//}
 
 ?>
