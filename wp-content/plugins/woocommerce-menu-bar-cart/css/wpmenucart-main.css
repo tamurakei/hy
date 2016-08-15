@@ -52,5 +52,6 @@
 /* End hide from IE-mac */
 /* Force Inline Display */
 li.wpmenucartli a.wpmenucart-contents span{
-	display: block !important;
+	display: inline-block !important;
+	text-transform:uppercase;
 }
