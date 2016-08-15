@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-15 14:13+0900\n"
+"PO-Revision-Date: 2016-08-15 15:57+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -7309,7 +7309,7 @@ msgstr "顧客の配送先住所"
 #: includes/class-wc-post-types.php:299 includes/class-wc-query.php:100
 #: includes/wc-account-functions.php:90
 msgid "Orders"
-msgstr "受注"
+msgstr "購入履歴"
 
 #: includes/admin/class-wc-admin-reports.php:48
 msgid "Sales by date"
@@ -10210,7 +10210,7 @@ msgstr "マイアカウント用のエンドポイント&rarr; アカウント�
 #: includes/admin/settings/class-wc-settings-accounts.php:149
 #: includes/class-wc-query.php:114 includes/wc-account-functions.php:92
 msgid "Addresses"
-msgstr ""
+msgstr "住所"
 
 #: includes/admin/settings/class-wc-settings-accounts.php:150
 msgid "Endpoint for the My Account &rarr; Addresses page"
@@ -16976,7 +16976,7 @@ msgstr "注文番号 %s"
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:123
 #: includes/wc-account-functions.php:94
 msgid "Account Details"
-msgstr "口座情報"
+msgstr "登録情報"
 
 #: includes/class-wc-shipping-zone.php:51
 #: includes/class-wc-shipping-zone.php:179
