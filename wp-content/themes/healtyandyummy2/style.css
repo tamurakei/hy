@@ -897,6 +897,15 @@ a.button.wc-forward {
     width: 150px !important;
     margin: 15px 15px 0 0 !important;
 }
+.woocommerce .woocommerce-error li strong, .woocommerce .woocommerce-info li strong, .woocommerce .woocommerce-message li strong {
+    font-size: 10px !important;
+    color: #b81c23 !important;
+}
+.woocommerce ul.woocommerce-error {
+    border-left: 1px solid #b81c23 !important;
+    padding: 0 0 0 10px !important;
+    margin-top: 10px !important;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
