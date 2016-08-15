@@ -324,7 +324,7 @@ function register_omise_wc_gateway_plugin() {
 			public function get_icon() {
 				$icon = '<img src="' . WC_HTTPS::force_https_url ( WC ()->plugin_url () . '/assets/images/icons/credit-cards/visa.png' ) . '" alt="Visa" />';
 				$icon .= '<img src="' . WC_HTTPS::force_https_url ( WC ()->plugin_url () . '/assets/images/icons/credit-cards/mastercard.png' ) . '" alt="Mastercard" />';
-				$icon .= '<img src="' . WC_HTTPS::force_https_url ( WC ()->plugin_url () . '/assets/images/icons/credit-cards/jcb.png' ) . '" alt="JCB" />';
+				//$icon .= '<img src="' . WC_HTTPS::force_https_url ( WC ()->plugin_url () . '/assets/images/icons/credit-cards/jcb.png' ) . '" alt="JCB" />';
 
 				return apply_filters ( 'woocommerce_gateway_icon', $icon, $this->id );
 			}
