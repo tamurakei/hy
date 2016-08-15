@@ -406,6 +406,7 @@ strong.product-quantity {
     list-style: none!important;
     width: auto;
     word-wrap: break-word;
+	margin-bottom: 25px !important;
 }
 .woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before {
     font-family: WooCommerce;
