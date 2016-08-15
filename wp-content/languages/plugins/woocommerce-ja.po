@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-15 15:57+0900\n"
+"PO-Revision-Date: 2016-08-15 21:29+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -16343,11 +16343,11 @@ msgstr ""
 #: includes/class-wc-form-handler.php:501
 #: includes/class-wc-form-handler.php:504
 msgid "%s removed."
-msgstr ""
+msgstr "%s はカートから削除されました。"
 
 #: includes/class-wc-form-handler.php:502
 msgid "Undo?"
-msgstr ""
+msgstr "　商品をカートに戻しますか？"
 
 #: includes/class-wc-form-handler.php:553
 msgid "You can only have 1 %s in your cart."
