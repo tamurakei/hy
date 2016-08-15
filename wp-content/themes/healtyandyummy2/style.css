@@ -105,6 +105,22 @@ h1.bar img{
 	font-size:18px;
 	letter-spacing: 1px;
 }
+.navFoot {
+    position: relative;
+    left: 160px;
+    padding: 349px 40px 0 80px;
+    width: 190px;
+    float: left;
+}
+.navFoot div {
+    margin: 10px 0;
+}
+.navFoot a{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 /*++++++++++++++++++++++++++++++++++++++++++
 // TOP
 ++++++++++++++++++++++++++++++++++++++++++*/
@@ -502,12 +518,12 @@ td.product-name {
 }
 div#s2id_billing_state,
 div#s2id_shipping_state {
-    width: 62% !important;
+    width: 79% !important;
     display: inline-block !important;
 }
 input#billing_address_2,
 input#shipping_address_2 {
-    width: 90% !important;
+    width: 99% !important;
 }
 .select2-container .select2-choice {
     display: block;

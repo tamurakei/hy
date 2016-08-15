@@ -50,8 +50,8 @@
 		<?php wp_nav_menu(array('menu' => 'sideMenu')); ?>
 		<div class="navFoot">
 		 	  <div class="account"><a href="https://healthy-yummy.com/my-account">MY ACCOUNT</a></div>
-			  <div class="policy"><a href="https://healthy-yummy.com/order">特定商取引法に関する表示</a></div>
-			  <div class="policy"><a href="https://healthy-yummy.com/policy">PRIVACY POLICY</a></div>
+			  <div class="privacy"><a href="https://healthy-yummy.com/law">特定商取引法に関する表示</a></div>
+			  <div class="privacy"><a href="https://healthy-yummy.com/privacy-policy">PRIVACY POLICY</a></div>
 			<div class="copyright">&copy; 2016 healthy & Yummy</div>
 		</div>
 		</div>
