@@ -560,6 +560,12 @@ input#createaccount {
 .create-account label.checkbox {
     width: 50% !important;
 }
+#ship-to-different-address label.checkbox {
+    width: 250px !important;
+}
+input#ship-to-different-address-checkbox {
+    width: 15px !important;
+}
 .select2-container .select2-choice {
     display: block;
     padding: 0 0 0 5px !important;
@@ -829,6 +835,17 @@ a.shipping-calculator-button:hover {
 	background:rgba(235,235,235);
     color: #555;
 }
+.login label {
+    width: 200px !important;
+    display: inline-block !important;
+}
+.login input.button {
+    width: auto !important;
+    background: #ebe9eb !important;
+}
+.login input.button:hover {
+    background: #555 !important;
+}
 #customer_login label {
     width: 200px !important;
 }
@@ -845,19 +862,20 @@ input#password {
 #customer_login input.button:hover {
     background: #555 !important;
 }
-#customer_login input#rememberme {
+#customer_login input#rememberme,
+.login  input#rememberme{
     width: 15px !important;
     margin-left: 15px;
 }
 #customer_login label.inline {
     width: auto;
 }
-p.woocommerce-LostPassword.lost_password {
+p.woocommerce-LostPassword.lost_password,
+.login p.lost_password{
     display: inline-block;
 	margin-top:15px;
 	margin-bottom: 30px;
     border-bottom: #ebe9eb solid 1px;
-    
 }
 input#reg_email {
     width: 50% !important;
@@ -877,7 +895,7 @@ a.button.wc-forward {
 }
 .checkout_coupon p.form-row {
     width: 150px !important;
-    margin: 15px 0 0 0 !important;
+    margin: 15px 15px 0 0 !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
