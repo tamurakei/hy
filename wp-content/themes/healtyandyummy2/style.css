@@ -339,6 +339,7 @@ input#coupon_code {
     width: 200px;
     margin-left: auto;
     margin-right: 0;
+	box-sizing:border-box;
 }
 .wc-proceed-to-checkout {
     width: 200px;
@@ -673,6 +674,7 @@ a.added_to_cart.wc-forward {
 .woocommerce a.button.alt {
     color: #F966B4 !important;
     padding: 5px;
+	box-sizing:border-box;
 }
 li.woocommerce-MyAccount-navigation-link {
     display: inline-block;
@@ -963,6 +965,9 @@ input#omise_card_security_code {
 }
 .woocommerce table.shop_table td {
     padding: 12px 12px !important;
+}
+.woocommerce .cart table.shop_table td {
+    padding: 12px 0 12px 12px !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
