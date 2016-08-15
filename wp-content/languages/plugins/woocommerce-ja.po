@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-15 13:57+0900\n"
+"PO-Revision-Date: 2016-08-15 14:13+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -6126,7 +6126,7 @@ msgstr "レポート"
 #: includes/admin/settings/class-wc-settings-checkout.php:75
 #: includes/class-wc-post-types.php:360
 msgid "Coupons"
-msgstr "クーポン"
+msgstr "コード"
 
 #: includes/admin/class-wc-admin-help.php:145
 #: includes/admin/class-wc-admin-help.php:149
@@ -6338,7 +6338,7 @@ msgstr "%s 操作"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:128
 msgid "Coupon Data"
-msgstr "クーポンデータ"
+msgstr "コードデータ"
 
 #: includes/admin/class-wc-admin-meta-boxes.php:164
 #: includes/admin/settings/class-wc-settings-products.php:462
@@ -6631,7 +6631,7 @@ msgstr "注文も更新してメールを送信"
 #: includes/admin/class-wc-admin-post-types.php:161
 #: includes/admin/class-wc-admin-post-types.php:163
 msgid "Coupon updated."
-msgstr "クーポンを更新"
+msgstr "コードを更新"
 
 #: includes/admin/class-wc-admin-post-types.php:162
 msgid "Coupon restored to revision from %s"
@@ -6639,19 +6639,19 @@ msgstr "%sでの修正を復元しました"
 
 #: includes/admin/class-wc-admin-post-types.php:164
 msgid "Coupon saved."
-msgstr "クーポンを保存"
+msgstr "コードを保存"
 
 #: includes/admin/class-wc-admin-post-types.php:165
 msgid "Coupon submitted."
-msgstr "クーポンを削除"
+msgstr "コードを削除"
 
 #: includes/admin/class-wc-admin-post-types.php:166
 msgid "Coupon scheduled for: <strong>%1$s</strong>."
-msgstr "クーポンスケジュール：<strong>%1$s</strong>."
+msgstr "コードスケジュール：<strong>%1$s</strong>."
 
 #: includes/admin/class-wc-admin-post-types.php:168
 msgid "Coupon draft updated."
-msgstr "クーポンを下書きとして保存"
+msgstr "コードを下書きとして保存"
 
 #: includes/admin/class-wc-admin-post-types.php:183
 msgid "%s product updated."
@@ -6706,28 +6706,27 @@ msgstr[0] "%s件の注文をゴミ箱から戻しました。"
 #: includes/admin/class-wc-admin-post-types.php:199
 msgid "%s coupon updated."
 msgid_plural "%s coupons updated."
-msgstr[0] "%s個のクーポンを更新しました。"
+msgstr[0] "%s個のコードを更新しました。"
 
 #: includes/admin/class-wc-admin-post-types.php:200
 msgid "%s coupon not updated, somebody is editing it."
 msgid_plural "%s coupons not updated, somebody is editing them."
-msgstr[0] ""
-"%s個のクーポンを更新できませんでした。誰かがこれらを編集しています。"
+msgstr[0] "%s個のコードを更新できませんでした。誰かがこれらを編集しています。"
 
 #: includes/admin/class-wc-admin-post-types.php:201
 msgid "%s coupon permanently deleted."
 msgid_plural "%s coupons permanently deleted."
-msgstr[0] "%s個のクーポンを完全に削除しました。"
+msgstr[0] "%s個のコードを完全に削除しました。"
 
 #: includes/admin/class-wc-admin-post-types.php:202
 msgid "%s coupon moved to the Trash."
 msgid_plural "%s coupons moved to the Trash."
-msgstr[0] "%s個のクーポンをゴミ箱に入れました。"
+msgstr[0] "%s個のコードをゴミ箱に入れました。"
 
 #: includes/admin/class-wc-admin-post-types.php:203
 msgid "%s coupon restored from the Trash."
 msgid_plural "%s coupons restored from the Trash."
-msgstr[0] "%s個のクーポンをゴミ箱から戻しました。"
+msgstr[0] "%s個のコードをゴミ箱から戻しました。"
 
 #: includes/admin/class-wc-admin-post-types.php:223
 #: includes/admin/class-wc-admin-taxonomies.php:317
@@ -6787,13 +6786,13 @@ msgstr "コード"
 
 #: includes/admin/class-wc-admin-post-types.php:254
 msgid "Coupon type"
-msgstr "クーポンの種類"
+msgstr "コードの種類"
 
 #: includes/admin/class-wc-admin-post-types.php:255
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:70
 #: includes/admin/reports/class-wc-report-sales-by-date.php:595
 msgid "Coupon amount"
-msgstr "クーポン金額"
+msgstr "コード金額"
 
 #: includes/admin/class-wc-admin-post-types.php:257
 msgid "Product IDs"
@@ -7114,7 +7113,7 @@ msgstr "商品名"
 #: includes/admin/class-wc-admin-post-types.php:2054
 #: templates/cart/cart.php:138 templates/checkout/form-coupon.php:36
 msgid "Coupon code"
-msgstr "クーポンコード"
+msgstr "コード"
 
 #: includes/admin/class-wc-admin-post-types.php:2068
 msgid "Description (optional)"
@@ -7326,7 +7325,7 @@ msgstr "カテゴリ別売上高"
 
 #: includes/admin/class-wc-admin-reports.php:66
 msgid "Coupons by date"
-msgstr "日別クーポン"
+msgstr "日別コード"
 
 #: includes/admin/class-wc-admin-reports.php:74
 #: includes/admin/reports/class-wc-report-customer-list.php:28
@@ -8244,7 +8243,7 @@ msgstr "割引の種類"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:70
 msgid "Value of the coupon."
-msgstr "クーポンの金額"
+msgstr "コードの金額"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:73
 msgid "Allow free shipping"
@@ -8260,7 +8259,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:76
 msgid "Coupon expiry date"
-msgstr "クーポン有効期限"
+msgstr "コード有効期限"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:86
 msgid "Minimum spend"
@@ -8299,8 +8298,8 @@ msgid ""
 "Check this box if the coupon cannot be used in conjunction with other "
 "coupons."
 msgstr ""
-"クーポンが他のクーポンとの併用ができない場合は、このチェックボックスをオンに"
-"します。"
+"コードが他のコードとの併用ができない場合は、このチェックボックスをオンにしま"
+"す。"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:95
 msgid "Exclude sale items"
@@ -8312,8 +8311,8 @@ msgid ""
 "coupons will only work if the item is not on sale. Per-cart coupons will "
 "only work if there are no sale items in the cart."
 msgstr ""
-"クーポンがセール商品に適用すべきでない場合は、このチェックボックスをオンにし"
-"ます。セール商品がカートの中に無い場合、カートにクーポンが機能します。 "
+"コードがセール商品に適用すべきでない場合は、このチェックボックスをオンにしま"
+"す。セール商品がカートの中に無い場合、カートにコードが機能します。 "
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:102
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:120
@@ -8329,7 +8328,7 @@ msgstr "商品検索&hellip;"
 msgid ""
 "Products which need to be in the cart to use this coupon or, for \"Product "
 "Discounts\", which products are discounted."
-msgstr "「商品割引」でクーポンを使うためには、カートの中にある必要がある商品"
+msgstr "「商品割引」でコードを使うためには、カートの中にある必要がある商品"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:119
 msgid "Exclude products"
@@ -8339,7 +8338,7 @@ msgstr "商品を除外"
 msgid ""
 "Products which must not be in the cart to use this coupon or, for \"Product "
 "Discounts\", which products are not discounted."
-msgstr "「商品割引」でクーポンを使うためには、カートの外にある必要がある商品"
+msgstr "「商品割引」でコードを使うためには、カートの外にある必要がある商品"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:139
 msgid "Product categories"
@@ -8353,7 +8352,7 @@ msgstr "任意のカテゴリー"
 msgid ""
 "A product must be in this category for the coupon to remain valid or, for "
 "\"Product Discounts\", products in these categories will be discounted."
-msgstr "このカテゴリーでクーポンが有効"
+msgstr "このカテゴリーでコードが有効"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:154
 msgid "Exclude categories"
@@ -8367,7 +8366,7 @@ msgstr "カテゴリーなし"
 msgid ""
 "Product must not be in this category for the coupon to remain valid or, for "
 "\"Product Discounts\", products in these categories will not be discounted."
-msgstr "このカテゴリーでクーポンが無効"
+msgstr "このカテゴリーでコードが無効"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:170
 msgid "Email restrictions"
@@ -8387,11 +8386,11 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
 msgid "Usage limit per coupon"
-msgstr "クーポン毎の利用制限数"
+msgstr "コード毎の利用制限数"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
 msgid "How many times this coupon can be used before it is void."
-msgstr "このクーポンが何度使用できるか。"
+msgstr "このコードが何度使用できるか。"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
 msgid "Limit usage to X items"
@@ -8402,8 +8401,8 @@ msgid ""
 "The maximum number of individual items this coupon can apply to when using "
 "product discounts. Leave blank to apply to all qualifying items in cart."
 msgstr ""
-"クーポンの割引に対応出来る製品の最大数。全ての対応製品に適応する場合は空欄に"
-"してください。"
+"コードの割引に対応出来る製品の最大数。全ての対応製品に適応する場合は空欄にし"
+"てください。"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:196
 msgid "Usage limit per user"
@@ -8414,16 +8413,16 @@ msgid ""
 "How many times this coupon can be used by an invidual user. Uses billing "
 "email for guests, and user ID for logged in users."
 msgstr ""
-"一人のお客様がクーポンが使える回数。ゲストはメールアドレス、ユーザーはユー"
-"ザーIDを利用します。"
+"一人のお客様がコードが使える回数。ゲストはメールアドレス、ユーザーはユーザー"
+"IDを利用します。"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:236
 msgid ""
 "Coupon code already exists - customers will use the latest coupon with this "
 "code."
 msgstr ""
-"クーポンコードは既に存在します - お客様は、このコードを使用して最新のクーポン"
-"を使用します。"
+"コードは既に存在します - お客様は、このコードを使用して最新のコードを使用しま"
+"す。"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:44
 msgid "Resend order emails"
@@ -9362,7 +9361,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:131
 msgid "Coupon(s) Used"
-msgstr "クーポンを使用"
+msgstr "コードを使用"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:146
 msgid "This is the total discount. Discounts are defined per line item."
@@ -9701,15 +9700,15 @@ msgstr "過去１週間"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:171
 msgid "Filter by coupon"
-msgstr "クーポンによるフィルター"
+msgstr "コードによるフィルター"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:199
 msgid "Choose coupons&hellip;"
-msgstr "クーポンを選択&hellip;"
+msgstr "コードを選択&hellip;"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:200
 msgid "All coupons"
-msgstr "すべてのクーポン"
+msgstr "すべてのコード"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:207
 #: includes/admin/reports/class-wc-report-sales-by-category.php:223
@@ -9720,7 +9719,7 @@ msgstr "表示する"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:215
 msgid "No used coupons found"
-msgstr "クーポンが使われていません"
+msgstr "コードが使われていません"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:220
 msgid "Most Popular"
@@ -9729,7 +9728,7 @@ msgstr "人気順"
 #: includes/admin/reports/class-wc-report-coupon-usage.php:262
 #: includes/admin/reports/class-wc-report-coupon-usage.php:309
 msgid "No coupons found in range"
-msgstr "この範囲ではクーポンは見つかりませんでした"
+msgstr "この範囲ではコードは見つかりませんでした"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:267
 msgid "Most Discount"
@@ -9748,7 +9747,7 @@ msgstr "CSVのエクスポート"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:459
 msgid "Number of coupons used"
-msgstr "クーポンの利用数"
+msgstr "コードの利用数"
 
 #: includes/admin/reports/class-wc-report-coupon-usage.php:467
 msgid "Discount amount"
@@ -9930,7 +9929,7 @@ msgstr "%s 配送料"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:422
 msgid "%s worth of coupons used"
-msgstr "%s クーポンの利用額"
+msgstr "%s コードの利用額"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:559
 #: includes/admin/reports/class-wc-report-sales-by-product.php:492
@@ -10273,23 +10272,23 @@ msgstr "精算手続き"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:76
 msgid "Enable the use of coupons"
-msgstr "クーポンの使用を有効にします"
+msgstr "コードの使用を有効にします"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:81
 msgid "Coupons can be applied from the cart and checkout pages."
-msgstr "クーポンはカートおよびお支払いのページから適用することができます。"
+msgstr "コードはカートおよびお支払いのページから適用することができます。"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:85
 msgid "Calculate coupon discounts sequentially"
-msgstr "逐次クーポン割引を計算します"
+msgstr "逐次コード割引を計算します"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:89
 msgid ""
 "When applying multiple coupons, apply the first coupon to the full price and "
 "the second coupon to the discounted price and so on."
 msgstr ""
-"複数のクーポンを適用する場合、最初のクーポンを全ての価格に適用し、第二のクー"
-"ポンは割引された価格などに適用されます。"
+"複数のコードを適用する場合、最初のコードを全ての価格に適用し、第二のコードは"
+"割引された価格などに適用されます。"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:96
 msgid "Enable guest checkout"
@@ -11622,15 +11621,15 @@ msgstr "ウェブフックで起動する時を選択して下さい。"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:51
 msgid "Coupon Created"
-msgstr "クーポン作成"
+msgstr "コード作成"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:52
 msgid "Coupon Updated"
-msgstr "クーポン更新"
+msgstr "コード更新"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:53
 msgid "Coupon Deleted"
-msgstr "クーポン削除"
+msgstr "コード削除"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:54
 msgid "Customer Created"
@@ -12916,7 +12915,7 @@ msgstr ""
 #: includes/cli/class-wc-cli-coupon.php:78
 #: includes/cli/class-wc-cli-coupon.php:453
 msgid "The coupon code already exists"
-msgstr "そのクーポンコードは既にあります"
+msgstr "そのコードコードは既にあります"
 
 #: includes/api/class-wc-rest-coupons-controller.php:436
 msgid "Unique identifier for the object."
@@ -14704,19 +14703,19 @@ msgstr "利用されたAPIキーには書き込み権限がありません"
 #: includes/api/legacy/v2/class-wc-api-coupons.php:120
 #: includes/api/legacy/v3/class-wc-api-coupons.php:120
 msgid "Invalid coupon ID"
-msgstr "無効なクーポンIDです"
+msgstr "無効なコードIDです"
 
 #: includes/api/legacy/v1/class-wc-api-coupons.php:153
 #: includes/api/legacy/v2/class-wc-api-coupons.php:166
 #: includes/api/legacy/v3/class-wc-api-coupons.php:166
 msgid "You do not have permission to read the coupons count"
-msgstr "クーポン件数の読み取り権限がありません"
+msgstr "コード件数の読み取り権限がありません"
 
 #: includes/api/legacy/v1/class-wc-api-coupons.php:172
 #: includes/api/legacy/v2/class-wc-api-coupons.php:192
 #: includes/api/legacy/v3/class-wc-api-coupons.php:192
 msgid "Invalid coupon code"
-msgstr "無効なクーポンコードです"
+msgstr "無効なコードコードです"
 
 #: includes/api/legacy/v1/class-wc-api-customers.php:195
 #: includes/api/legacy/v2/class-wc-api-customers.php:241
@@ -14936,7 +14935,7 @@ msgstr "%1$sを作成するために指定された%1$sデータがありませ�
 #: includes/api/legacy/v2/class-wc-api-coupons.php:220
 #: includes/api/legacy/v3/class-wc-api-coupons.php:220
 msgid "You do not have permission to create coupons"
-msgstr "クーポンを作成する権限がありません"
+msgstr "コードを作成する権限がありません"
 
 #: includes/api/legacy/v2/class-wc-api-coupons.php:270
 #: includes/api/legacy/v2/class-wc-api-coupons.php:379
@@ -14946,8 +14945,7 @@ msgstr "クーポンを作成する権限がありません"
 #: includes/cli/class-wc-cli-coupon.php:465
 msgid "Invalid coupon type - the coupon type must be any of these: %s"
 msgstr ""
-"無効なクーポンの種類 - クーポンの種類は以下のいずれかである必要があります： "
-"%s"
+"無効なコードの種類 - コードの種類は以下のいずれかである必要があります： %s"
 
 #: includes/api/legacy/v2/class-wc-api-coupons.php:329
 #: includes/api/legacy/v2/class-wc-api-customers.php:402
@@ -14979,7 +14977,7 @@ msgstr "%1$sを編集するために指定された%1$sデータがありませ�
 #: includes/api/legacy/v3/class-wc-api-coupons.php:372
 #: includes/cli/class-wc-cli-coupon.php:459
 msgid "Failed to update coupon"
-msgstr "クーポンの更新に失敗しました"
+msgstr "コードの更新に失敗しました"
 
 #: includes/api/legacy/v2/class-wc-api-coupons.php:526
 #: includes/api/legacy/v2/class-wc-api-customers.php:791
@@ -15161,25 +15159,25 @@ msgstr "費用を更新出来ませんでした。もう一度試して下さい
 #: includes/api/legacy/v3/class-wc-api-orders.php:1201
 #: includes/cli/class-wc-cli-order.php:1214
 msgid "Coupon discount total must be a positive amount"
-msgstr "クーポンの割引合計金額は正の数でなければいけません"
+msgstr "コードの割引合計金額は正の数でなければいけません"
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1163
 #: includes/api/legacy/v3/class-wc-api-orders.php:1208
 #: includes/cli/class-wc-cli-order.php:1221
 msgid "Coupon code is required"
-msgstr "クーポンコードが必要です"
+msgstr "コードコードが必要です"
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1169
 #: includes/api/legacy/v3/class-wc-api-orders.php:1214
 #: includes/cli/class-wc-cli-order.php:1227
 msgid "Cannot create coupon, try again"
-msgstr "クーポンが作成出来ませんでした、再度登録して下さい"
+msgstr "コードが作成出来ませんでした、再度登録して下さい"
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1187
 #: includes/api/legacy/v3/class-wc-api-orders.php:1232
 #: includes/cli/class-wc-cli-order.php:1245
 msgid "Cannot update coupon, try again"
-msgstr "クーポンが更新出来ませんでした。再度更新して下さい"
+msgstr "コードが更新出来ませんでした。再度更新して下さい"
 
 #: includes/api/legacy/v2/class-wc-api-orders.php:1252
 #: includes/api/legacy/v2/class-wc-api-orders.php:1360
@@ -15649,11 +15647,11 @@ msgstr ""
 
 #: includes/class-wc-ajax.php:217
 msgid "Sorry there was a problem removing this coupon."
-msgstr "申し訳ありませんが、このクーポンを削除されています。"
+msgstr "申し訳ありませんが、このコードを削除されています。"
 
 #: includes/class-wc-ajax.php:223
 msgid "Coupon has been removed."
-msgstr "クーポンは削除されました。"
+msgstr "コードは削除されました。"
 
 #: includes/class-wc-ajax.php:290
 msgid "Sorry, your session has expired."
@@ -15733,7 +15731,7 @@ msgstr "この通知を非表示にする。"
 
 #: includes/class-wc-auth.php:100
 msgid "View coupons"
-msgstr "クーポンを表示"
+msgstr "コードを表示"
 
 #: includes/class-wc-auth.php:101
 msgid "View customers"
@@ -15753,7 +15751,7 @@ msgstr "webhooksを作成"
 
 #: includes/class-wc-auth.php:107
 msgid "Create coupons"
-msgstr "クーポンを作成"
+msgstr "コードを作成"
 
 #: includes/class-wc-auth.php:108
 msgid "Create customers"
@@ -15769,7 +15767,7 @@ msgstr "商品を作成"
 
 #: includes/class-wc-auth.php:114
 msgid "View and manage coupons"
-msgstr "クーポンを表示及び管理"
+msgstr "コードを表示及び管理"
 
 #: includes/class-wc-auth.php:115
 msgid "View and manage customers"
@@ -16113,83 +16111,82 @@ msgstr "Eメール"
 
 #: includes/class-wc-coupon.php:775
 msgid "Coupon code applied successfully."
-msgstr "クーポンコードの適用に成功しました。"
+msgstr "コードの適用に成功しました。"
 
 #: includes/class-wc-coupon.php:778
 msgid "Coupon code removed successfully."
-msgstr "クーポンコードは正しく削除されました"
+msgstr "コードコードは正しく削除されました"
 
 #: includes/class-wc-coupon.php:796
 msgid "Coupon is not valid."
-msgstr "クーポンが有効ではありません"
+msgstr "コードが有効ではありません"
 
 #: includes/class-wc-coupon.php:799
 msgid "Coupon \"%s\" does not exist!"
-msgstr "\"%s\"のクーポンはありません。"
+msgstr "\"%s\"のコードはありません。"
 
 #: includes/class-wc-coupon.php:802
 msgid ""
 "Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
 "your order."
-msgstr "クーポン \"%s\" は無効と思われます。- 注文から削除されました"
+msgstr "コード \"%s\" は無効と思われます。- 注文から削除されました"
 
 #: includes/class-wc-coupon.php:805
 msgid ""
 "Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
 "from your order."
 msgstr ""
-"クーポン \"%s\" はご自身のものではないと思われます。- 注文から削除されました"
+"コード \"%s\" はご自身のものではないと思われます。- 注文から削除されました"
 
 #: includes/class-wc-coupon.php:808
 msgid "Coupon code already applied!"
-msgstr "クーポンコードは、既に適用されました。"
+msgstr "コードは、既に適用されました。"
 
 #: includes/class-wc-coupon.php:811
 msgid ""
 "Sorry, coupon \"%s\" has already been applied and cannot be used in "
 "conjunction with other coupons."
-msgstr ""
-"クーポン \"%s\" はすでに適用されており、他のクーポンとの併用はできません。"
+msgstr "コード \"%s\" はすでに適用されており、他のコードとの併用はできません。"
 
 #: includes/class-wc-coupon.php:814
 msgid "Coupon usage limit has been reached."
-msgstr "クーポンの使用量が制限値に達しました。"
+msgstr "コードの使用量が制限値に達しました。"
 
 #: includes/class-wc-coupon.php:817
 msgid "This coupon has expired."
-msgstr "このクーポンは有効期限が切れています。"
+msgstr "このコードは有効期限が切れています。"
 
 #: includes/class-wc-coupon.php:820
 msgid "The minimum spend for this coupon is %s."
-msgstr "このクーポンを使用できる最小限度額は %s です。"
+msgstr "このコードを使用できる最小限度額は %s です。"
 
 #: includes/class-wc-coupon.php:823
 msgid "The maximum spend for this coupon is %s."
-msgstr "このクーポンの最大利用可能額は%sです。"
+msgstr "このコードの最大利用可能額は%sです。"
 
 #: includes/class-wc-coupon.php:826
 msgid "Sorry, this coupon is not applicable to your cart contents."
-msgstr "このクーポンは今のカート内容には適用されません。"
+msgstr "このコードは今のカート内容には適用されません。"
 
 #: includes/class-wc-coupon.php:839
 msgid "Sorry, this coupon is not applicable to the products: %s."
-msgstr "申し訳ありませんが、このクーポンは製品: %sには適用されません。"
+msgstr "申し訳ありませんが、このコードは製品: %sには適用されません。"
 
 #: includes/class-wc-coupon.php:858
 msgid "Sorry, this coupon is not applicable to the categories: %s."
-msgstr "申し訳ありませんが、このクーポンはカテゴリー: %sには適用されません。"
+msgstr "申し訳ありませんが、このコードはカテゴリー: %sには適用されません。"
 
 #: includes/class-wc-coupon.php:861
 msgid "Sorry, this coupon is not valid for sale items."
-msgstr "このクーポンは販売商品には有効ではありません。"
+msgstr "このコードは販売商品には有効ではありません。"
 
 #: includes/class-wc-coupon.php:881
 msgid "Coupon does not exist!"
-msgstr "クーポンは存在しません"
+msgstr "コードは存在しません"
 
 #: includes/class-wc-coupon.php:884
 msgid "Please enter a coupon code."
-msgstr "クーポンコードを入力して下さい。"
+msgstr "コードを入力して下さい。"
 
 #: includes/class-wc-download-handler.php:53
 msgid "Invalid download link."
@@ -16812,47 +16809,47 @@ msgstr "払戻"
 
 #: includes/class-wc-post-types.php:361
 msgid "Coupon"
-msgstr "クーポン"
+msgstr "コード"
 
 #: includes/class-wc-post-types.php:363
 msgid "Add Coupon"
-msgstr "クーポンを追加"
+msgstr "コードを追加"
 
 #: includes/class-wc-post-types.php:364
 msgid "Add New Coupon"
-msgstr "新しいクーポンを追加"
+msgstr "新しいコードを追加"
 
 #: includes/class-wc-post-types.php:366
 msgid "Edit Coupon"
-msgstr "クーポンを編集"
+msgstr "コードを編集"
 
 #: includes/class-wc-post-types.php:367
 msgid "New Coupon"
-msgstr "新しいクーポン"
+msgstr "新しいコード"
 
 #: includes/class-wc-post-types.php:368
 msgid "View Coupons"
-msgstr "クーポンを見る"
+msgstr "コードを見る"
 
 #: includes/class-wc-post-types.php:369
 msgid "View Coupon"
-msgstr "クーポンを見る"
+msgstr "コードを見る"
 
 #: includes/class-wc-post-types.php:370
 msgid "Search Coupons"
-msgstr "クーポンを検索"
+msgstr "コードを検索"
 
 #: includes/class-wc-post-types.php:371
 msgid "No Coupons found"
-msgstr "クーポンが見つかりません"
+msgstr "コードが見つかりません"
 
 #: includes/class-wc-post-types.php:372
 msgid "No Coupons found in trash"
-msgstr "ゴミ箱の中にもクーポンは見つかりませんでした"
+msgstr "ゴミ箱の中にもコードは見つかりませんでした"
 
 #: includes/class-wc-post-types.php:373
 msgid "Parent Coupon"
-msgstr "クーポンフォルダ"
+msgstr "コードフォルダ"
 
 #: includes/class-wc-post-types.php:374
 msgid "Filter coupons"
@@ -16869,7 +16866,7 @@ msgstr ""
 #: includes/class-wc-post-types.php:378
 msgid ""
 "This is where you can add new coupons that customers can use in your store."
-msgstr "顧客がショップで使用できるクーポンを、新規に追加できる場所です。"
+msgstr "顧客がショップで使用できるコードを、新規に追加できる場所です。"
 
 #: includes/class-wc-post-types.php:402
 msgid "Webhook"
@@ -18396,7 +18393,7 @@ msgstr "送料無料は必要です..."
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:87
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:123
 msgid "A valid free shipping coupon"
-msgstr "有効な送料無料クーポン"
+msgstr "有効な送料無料コード"
 
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:88
 msgid "A minimum order amount"
@@ -18405,12 +18402,12 @@ msgstr ""
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:89
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:125
 msgid "A minimum order amount OR a coupon"
-msgstr "最小注文量やクーポン"
+msgstr "最小注文量やコード"
 
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:90
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:126
 msgid "A minimum order amount AND a coupon"
-msgstr "最小注文量やクーポン"
+msgstr "最小注文量やコード"
 
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:94
 #: includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php:130
@@ -18857,11 +18854,11 @@ msgstr "と"
 
 #: includes/wc-cart-functions.php:238 templates/cart/cart.php:138
 msgid "Coupon:"
-msgstr "クーポン:"
+msgstr "コード:"
 
 #: includes/wc-cart-functions.php:269
 msgid "Free shipping coupon"
-msgstr "送料無料クーポン"
+msgstr "送料無料コード"
 
 #: includes/wc-cart-functions.php:274
 msgid "[Remove]"
@@ -20108,7 +20105,7 @@ msgstr "この項目を削除"
 
 #: templates/cart/cart.php:138 templates/checkout/form-coupon.php:40
 msgid "Apply Coupon"
-msgstr "クーポンを適用"
+msgstr "コードを適用"
 
 #: templates/cart/cart.php:144
 msgid "Update Cart"
@@ -20182,7 +20179,7 @@ msgstr "ご注文詳細"
 
 #: templates/checkout/form-coupon.php:28
 msgid "Have a coupon?"
-msgstr "クーポンをお持ちですか? -"
+msgstr "コードをお持ちですか? -"
 
 #: templates/checkout/form-coupon.php:28
 msgid "Click here to enter your code"
@@ -20978,7 +20975,7 @@ msgstr "商品"
 #: includes/class-wc-post-types.php:362
 msgctxt "Admin menu name"
 msgid "Coupons"
-msgstr "クーポン"
+msgstr "コード"
 
 #: includes/class-wc-post-types.php:403
 msgctxt "Admin menu name"
