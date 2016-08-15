@@ -440,6 +440,7 @@ a.showcoupon {
     outline: 0;
     line-height: 1;
     padding: 5px;
+	    border: 1px #555 solid;
 }
 .woocommerce table.shop_table {
     border: none !important;
