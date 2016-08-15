@@ -40,13 +40,14 @@
 <?php include_once("analyticstracking.php") ?>
 
 <div id="wrap">
+	<?php wp_nav_menu(array('menu' => 'cart')); ?>
 	<div id="navwrap">
 		<header>
 				<div id="button"></div>
 				<h1 class="bar"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_ver.png"  alt="Healty &amp; Yummy"></h1>
 		</header>
 		<div class="navArea">
-		<?php wp_nav_menu(); ?>
+		<?php wp_nav_menu(array('menu' => 'sideMenu')); ?>
 
       <div class="copyright">&copy; 2016 healthy & Yummy</div>
 		</div>
