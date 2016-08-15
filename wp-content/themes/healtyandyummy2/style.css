@@ -535,7 +535,7 @@ td.product-name {
 }
 .col-1 label,
 .col-2 label {
-    width: 20%;
+    width: 75px;
     display: inline-block !important;
     font-family: -webkit-body;
     font-size: 12px;
@@ -710,7 +710,16 @@ li.woocommerce-MyAccount-navigation-link a.is-active {
 .shipping input#calc_shipping_postcode {
     width: 50% !important;
 }
+form.woocommerce-shipping-calculator {
+    margin: 10px 0 0;
+}
 .shipping p#calc_shipping_postcode_field {
+    width: 50% !important;
+}
+.shipping .shipping-calculator-form p#calc_shipping_postcode_field {
+    width: 100% !important;
+}
+.shipping-calculator-form input#calc_shipping_postcode {
     width: 50% !important;
 }
 .shipping button.button {
@@ -805,6 +814,15 @@ small.shipped_via {
     margin: 0 0 20px;
     padding: 20px 0;
     border-top: 1px solid #ebe9eb;
+}
+a.shipping-calculator-button {
+    padding: 2px 40px;
+    border: #000 1px solid;
+    color: #000;
+}
+a.shipping-calculator-button:hover {
+	background:#000;
+    color: #FFF;
 }
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
