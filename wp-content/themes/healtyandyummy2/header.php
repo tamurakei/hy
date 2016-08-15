@@ -40,7 +40,7 @@
 <?php include_once("analyticstracking.php") ?>
 
 <div id="wrap">
-	<?php wp_nav_menu(array('menu' => 'cart')); ?>
+	<?php //wp_nav_menu(array('menu' => 'cart')); ?>
 	<div id="navwrap">
 		<header>
 				<div id="button"></div>

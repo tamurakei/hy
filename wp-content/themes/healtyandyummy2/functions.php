@@ -90,16 +90,10 @@ function create_product_taxonomies() {
 */
 add_theme_support( ‘menus’ );
 
-//add_action ('woocommerce_checkout_after_customer_details', 'my_func');
-//function my_func () {
-//  print '<p>Add Message</p>';
-//}
-
-//add_action( 'woocommerce_account_menu_items', 'wpo_wcpdf_remove_myaccount_link' );
-
-//function wpo_wcpdf_remove_myaccount_link() {
-//	global $wpo_wcpdf;
-//	remove_action( 'woocommerce_account_menu_items', 'downloads' );
-//}
-
+function notice_shipping() {
+echo '<p class="freeshipping">2点以上購入で送料無料</p>';
+}
+ 
+//add_action( 'woocommerce_cart_coupon', 'notice_shipping' );
+add_action( 'woocommerce_before_shipping_calculator' , 'notice_shipping' );
 ?>
