@@ -131,6 +131,23 @@ h1.bar img{
 li#menu-item-217 {
     display: none;
 }
+li#wpmenucartli {
+    position: relative;
+}
+span.cartcontents {
+    font-family: -webkit-body;
+    font-weight: bold;
+    font-size: 14px;
+    background: #ebe9eb;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
 /*++++++++++++++++++++++++++++++++++++++++++
 // TOP
 ++++++++++++++++++++++++++++++++++++++++++*/

@@ -2,6 +2,12 @@ $(document).ready(function(){
 	$(window).bind("load", function(){
        fitting();
 	   barOpen();
+	   $('.cartcontents').each(function(){
+			var txt = $(this).text();
+			$(this).text(
+				txt.replace(/item/g,"")
+			);
+		});
 		});
 		
 	function fitting(){ 
