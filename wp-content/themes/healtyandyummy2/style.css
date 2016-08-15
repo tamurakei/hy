@@ -535,7 +535,7 @@ td.product-name {
 }
 .col-1 label,
 .col-2 label {
-    width: 75px;
+    width: 150px;
     display: inline-block !important;
     font-family: -webkit-body;
     font-size: 12px;
@@ -543,17 +543,28 @@ td.product-name {
 }
 .col-1 input,
 .col-2 input {
-    width: 79% !important;
+    width: 50% !important;
     display: inline-block;
 }
-div#s2id_billing_state,
-div#s2id_shipping_state {
-    width: 79% !important;
+div#s2id_billing_state, div#s2id_shipping_state {
+    width: 50% !important;
     display: inline-block !important;
+    border: 1px solid #ebe9eb !important;
 }
-input#billing_address_2,
-input#shipping_address_2 {
-    width: 99% !important;
+#billing_country_field strong {
+    font-size: 13px !important;
+}
+input#createaccount {
+    width: 15px !important;
+}
+.create-account label.checkbox {
+    width: 50% !important;
+}
+#ship-to-different-address label.checkbox {
+    width: 250px !important;
+}
+input#ship-to-different-address-checkbox {
+    width: 15px !important;
 }
 .select2-container .select2-choice {
     display: block;
@@ -821,10 +832,80 @@ a.shipping-calculator-button {
     color: #555;
 }
 a.shipping-calculator-button:hover {
-	background:#ebe9eb;
-    color: #FFF;
+	background:rgba(235,235,235);
+    color: #555;
 }
-
+.login label {
+    width: 200px !important;
+    display: inline-block !important;
+}
+.login input.button {
+    width: auto !important;
+    background: #ebe9eb !important;
+}
+.login input.button:hover {
+    background: #555 !important;
+}
+#customer_login label {
+    width: 200px !important;
+}
+input#username {
+    width: 50% !important;
+}
+input#password {
+    width: 50% !important;
+}
+#customer_login input.button {
+    width: auto !important;
+    background: #ebe9eb !important;
+}
+#customer_login input.button:hover {
+    background: #555 !important;
+}
+#customer_login input#rememberme,
+.login  input#rememberme{
+    width: 15px !important;
+    margin-left: 15px;
+}
+#customer_login label.inline {
+    width: auto;
+}
+p.woocommerce-LostPassword.lost_password,
+.login p.lost_password{
+    display: inline-block;
+	margin-top:15px;
+	margin-bottom: 30px;
+    border-bottom: #ebe9eb solid 1px;
+}
+input#reg_email {
+    width: 50% !important;
+    border: none;
+    background: #ebe9eb;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+a.button.wc-forward {
+    display: none;
+}
+.checkout_coupon input.button {
+    background: #ebe9eb !important;
+}
+.checkout_coupon input.button:hover {
+    background: #555 !important;
+}
+.checkout_coupon p.form-row {
+    width: 150px !important;
+    margin: 15px 15px 0 0 !important;
+}
+.woocommerce .woocommerce-error li strong, .woocommerce .woocommerce-info li strong, .woocommerce .woocommerce-message li strong {
+    font-size: 10px !important;
+    color: #b81c23 !important;
+}
+.woocommerce ul.woocommerce-error {
+    border-left: 1px solid #b81c23 !important;
+    padding: 0 0 0 10px !important;
+    margin-top: 10px !important;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
