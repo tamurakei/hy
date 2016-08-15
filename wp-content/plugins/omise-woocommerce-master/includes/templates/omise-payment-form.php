@@ -4,7 +4,7 @@
 	if($showExistingCards){
 ?>
 <p class="form-row form-row-wide">
-	Select card : <br/>
+	クレジットカード選択 : <br/>
 		<?php 
 			foreach($viewData["existingCards"]->data as $card){
 				echo "<input type='radio' name='card_id' value='{$card->id}' />Card ends with {$card->last_digits}<br/>";
@@ -20,7 +20,7 @@
 	?>
 	<p class="form-row form-row-wide">
 		<input type='checkbox' name='omise_save_customer_card' id='omise_save_customer_card' /> 
-		<label for="omise_save_customer_card" class="inline">Save card for next time</label>
+		<label for="omise_save_customer_card" class="inline">カード番号を保存する</label>
 	</p>
 	<?php 
 		}
