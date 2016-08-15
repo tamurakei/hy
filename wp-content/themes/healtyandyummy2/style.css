@@ -957,6 +957,10 @@ input#omise_card_security_code {
     width: 300px;
     display: inline-block;
 }
+.login p.form-row.woocommerce-FormRow--wide {
+    width: 100%;
+    display: inline-block;
+}
 .woocommerce form .form-row.woocommerce-invalid .select2-container, .woocommerce form .form-row.woocommerce-invalid input.input-text, .woocommerce form .form-row.woocommerce-invalid select {
     border: 1px solid #a00 !important;
 }
