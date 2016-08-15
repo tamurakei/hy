@@ -23,8 +23,8 @@
   <meta property="og:url" content="http://healthy-yummy.com/" />
   <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/logo.png" />
   <meta property="og:site_name" content="HEALTHY &amp; YUMMY" />
-  <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
-  <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/img/appletouchicon.png" />
+  <link rel="shortcut icon" href="">
+  <link rel="apple-touch-icon" href="" />
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -49,7 +49,6 @@
 		<div class="navArea">
 		<?php wp_nav_menu(array('menu' => 'sideMenu')); ?>
 		<div class="navFoot">
-		 	  <div class="account"><a href="https://healthy-yummy.com/my-account">MY ACCOUNT</a></div>
 			  <div class="privacy"><a href="https://healthy-yummy.com/law">特定商取引法に関する表示</a></div>
 			  <div class="privacy"><a href="https://healthy-yummy.com/privacy-policy">PRIVACY POLICY</a></div>
 			<div class="copyright">&copy; 2016 healthy & Yummy</div>
