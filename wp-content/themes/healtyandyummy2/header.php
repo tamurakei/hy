@@ -47,7 +47,12 @@
 		</header>
 		<div class="navArea">
 		<?php wp_nav_menu(); ?>
-
-      <div class="copyright">&copy; 2016 healthy & Yummy</div>
+		 <div class="navFoot">
+		 	  <div class="account"><a href="https://healthy-yummy.com/my-account">MY ACCOUNT</a></div>
+			  <div class="policy"><a href="https://healthy-yummy.com/order">特定商取引法に関する表示</a></div>
+			  <div class="policy"><a href="https://healthy-yummy.com/policy">PRIVACY POLICY</a></div>
+			<div class="copyright">&copy; 2016 healthy & Yummy</div>
 		</div>
+		</div>
+		
 	</div><!--navWrap-->

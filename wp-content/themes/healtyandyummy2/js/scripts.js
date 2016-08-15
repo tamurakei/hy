@@ -106,24 +106,23 @@ $(document).ready(function(){
 					}
 				};*/	
 		function barOpen(){   
-		var agent = navigator.userAgent;
-		if(agent.search(/iPhone/) != -1){
+		
 				
 				$("h1.bar,.button").click(function(){
 					if($("#wrap").hasClass("nav_open")){
    						 	$("#wrap").removeClass("nav_open");
 							if (!jQuery.support.opacity) {
-							$("#wrap").animate({marginLeft:0},200)
+							$("#wrap").animate({marginLeft:0},200);
 							
 			 			}
 					}else{$("#wrap").addClass("nav_open");
 							if (!jQuery.support.opacity) {
-							$("#wrap").animate({marginLeft:150},200)
+							$("#wrap").animate({marginLeft:150},200);
 							
 			 			}
 					}
 				});
-			}		
+				
 		}
 				
 
