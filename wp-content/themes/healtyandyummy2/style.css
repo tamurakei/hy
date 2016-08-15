@@ -449,7 +449,7 @@ a.showcoupon {
    }
  .woocommerce table.shop_table th {
     font-weight: 500 !important;
-    padding:0 0 0 12px !important;
+    padding:12px 12px !important;
 }
 th.product-name {
     width: 60% !important;
@@ -960,6 +960,9 @@ input#omise_card_security_code {
 }
 .woocommerce-message {
     display: none;
+}
+.woocommerce table.shop_table td {
+    padding: 12px 12px !important;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
