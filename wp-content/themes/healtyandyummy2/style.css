@@ -1102,6 +1102,21 @@ small.woocommerce-password-hint {
 #shipping_method span.woocommerce-Price-amount.amount {
     width: 55px;
 }
+#shipping_country_field strong {
+    font-size: 13px !important;
+}
+h3#ship-to-different-address {
+    position: relative;
+}
+input#ship-to-different-address-checkbox {
+    width: 15px !important;
+    position: absolute;
+    left: 0;
+    top: 4.5px;
+}
+#ship-to-different-address label.checkbox {
+    padding-left: 25px;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
