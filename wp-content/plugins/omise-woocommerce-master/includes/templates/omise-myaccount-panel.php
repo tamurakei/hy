@@ -1,5 +1,4 @@
-<h2>Omise settings</h2>
-<h3>Cards</h3>
+<h3>クレジットカード情報</h3>
 <div id="omise_card_panel">
 	<table>
 		<tr>

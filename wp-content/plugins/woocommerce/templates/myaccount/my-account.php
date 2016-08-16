@@ -29,6 +29,13 @@ wc_print_notices();
 do_action( 'woocommerce_account_navigation' ); ?>
 
 <div class="woocommerce-MyAccount-content">
+
+<?php wc_get_template( 'myaccount/form-edit-account.php' ); ?>
+
+<?php wc_get_template( 'myaccount/my-address.php' ); ?>
+
+<?php wc_get_template( 'myaccount/my-address.php' ); ?>
+
 	<?php
 		/**
 		 * My Account content.
@@ -37,10 +44,6 @@ do_action( 'woocommerce_account_navigation' ); ?>
 		do_action( 'woocommerce_account_content' );
 	?>
 </div>
-
-<?php wc_get_template( 'myaccount/my-address.php' ); ?>
-
-<?php do_action( 'woocommerce_before_my_account' ); ?>
 
 <?php do_action( 'woocommerce_after_my_account' ); ?>
 
