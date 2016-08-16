@@ -830,14 +830,15 @@ small.shipped_via {
     border-top: 1px solid #ebe9eb;
 }
 a.shipping-calculator-button,
-a.reload{
+input.button.reload{
     padding: 2px 14px;
     border: #ebe9eb 1px solid;
     color: #555;
     width: 50% !important;
+	cursor:pointer;
 }
 a.shipping-calculator-button:hover,
-a.reload:hover {
+input.button.reload:hover {
 	background:#555;
     color: #FFF;
 }
