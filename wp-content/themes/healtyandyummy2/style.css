@@ -1067,7 +1067,11 @@ p#calc_shipping_state_field {
 .select2-results li {
     margin: 1px 0 !important;
 }
-.woocommerce-password-strength.short {
+.woocommerce-password-strength.short,
+.woocommerce-password-strength.bad,
+.woocommerce-password-strength.good,
+.woocommerce-password-strength.strong
+ {
     display: none !important;
 }
 small.woocommerce-password-hint {
