@@ -92,8 +92,15 @@ add_theme_support( ‘menus’ );
 
 function notice_shipping() {
 echo '<p class="freeshipping">2点以上購入で送料無料</p>';
-}
- 
+} 
 //add_action( 'woocommerce_cart_coupon', 'notice_shipping' );
 add_action( 'woocommerce_before_shipping_calculator' , 'notice_shipping' );
+
+function add_my_account() {
+    wc_get_template( 'myaccount/my-address.php' );
+}
+
+add_action( 'woocommerce_after_my_account' , 'add_my_account' ,'0' );
+
+
 ?>
