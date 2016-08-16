@@ -38,7 +38,7 @@ do_action( 'woocommerce_account_navigation' ); ?>
 	?>
 
 <h3>登録情報<h3>
-<?php wc_get_template( 'myaccount/form-edit-account.php' ); ?>
+<?php wc_get_template( 'myaccount/edit-account.php' ); ?>
 
 <h3>住所<h3>
 <?php wc_get_template( 'myaccount/my-address.php' ); ?>
