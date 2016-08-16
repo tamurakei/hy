@@ -599,6 +599,10 @@ ul.woocommerce-thankyou-order-details.order_details {
     padding: 1px 0 !important;
     margin: 0 0 6px;
 }
+.woocommerce .create-account p.form-row {
+    padding: 1px 0 !important;
+    margin: 6px 0 6px !important;
+}
 .woocommerce .order_details {
     margin: 15px 0 15px !important; 
     list-style: none !important;
@@ -1138,6 +1142,9 @@ p#billing_address_2_field {
 .payment_box.payment_method_bankjp {
     margin: 0 !important;
     padding: 10px 0 !important;
+}
+textarea#order_comments {
+    height: 200px;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
