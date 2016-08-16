@@ -173,7 +173,10 @@ li#wpmenucartli {
 .policy,
 .price{
 	font-size: 15px;
-	margin: 0 0 30px;
+	margin: 0 0 20px;
+}
+.txt.bordertop {
+    margin: 40px 0 0;
 }
 ul.indent {
     padding: 10px 30px;
