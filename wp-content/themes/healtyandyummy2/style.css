@@ -989,6 +989,31 @@ input#omise_card_security_code {
 p#calc_shipping_country_field {
     display: none;
 }
+p.contactform {
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+p.contactform-small {
+    width: 150px;
+    display: inline-block;
+}
+.contactform-small span {
+    font-weight: 700;
+    border: 0;
+    color: red;
+    margin-left: 5px;
+}
+div.wpcf7-validation-errors {
+    display: none !important;
+}
+input.wpcf7-not-valid {
+    border: 1px solid #a00 !important;
+}
+span.wpcf7-not-valid-tip {
+    display: none;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
