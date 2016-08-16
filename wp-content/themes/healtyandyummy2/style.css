@@ -1094,9 +1094,7 @@ small.woocommerce-password-hint {
 .woocommerce-MyAccount-content a.woocommerce-Button.button:hover {
     background: #555 !important;
 }
-li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--dashboard.is-active {
-    display: none;
-}
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
