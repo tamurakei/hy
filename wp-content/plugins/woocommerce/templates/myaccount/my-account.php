@@ -43,5 +43,7 @@ do_action( 'woocommerce_account_navigation' ); ?>
 <h3>住所<h3>
 <?php wc_get_template( 'myaccount/my-address.php' ); ?>
 
+<?php do_action( 'woocommerce_after_my_account' ); ?>
+
 </div>
 
