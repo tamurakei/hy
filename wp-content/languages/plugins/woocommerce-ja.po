@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-17 02:21+0900\n"
+"PO-Revision-Date: 2016-08-17 02:33+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -20127,7 +20127,7 @@ msgstr "お支払いへ進む"
 
 #: templates/cart/shipping-calculator.php:33
 msgid "Calculate Shipping"
-msgstr "都道府県から送料を計算"
+msgstr "住所から送料計算"
 
 #: templates/cart/shipping-calculator.php:56
 #: templates/cart/shipping-calculator.php:62
