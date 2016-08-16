@@ -78,10 +78,13 @@ p {
 .datagrid table tfoot td {
 	color: #000000;
 	border: none;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: normal;
 	background-color: transparent;
 	-webkit-print-color-adjust: exact;
+}
+.datagrid table tfoot td.totalprice {
+	font-size: 16px;
 }
 
 .print {
@@ -134,4 +137,16 @@ p {
 .article h2 {
     font-weight: 200;
     font-size: 20px;
+}
+thead tr.desc {
+    border-bottom: 1px #ebe9eb solid;
+}
+tbody tr {
+    border-bottom: 1px #ebe9eb solid;
+}
+.desc td {
+    border-bottom: 1px #ebe9eb solid !important;
+}
+th.info {
+    border-bottom: 1px #ebe9eb solid;
 }
