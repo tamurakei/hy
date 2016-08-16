@@ -37,3 +37,9 @@ do_action( 'woocommerce_account_navigation' ); ?>
 		do_action( 'woocommerce_account_content' );
 	?>
 </div>
+
+<?php do_action( 'woocommerce_before_my_account' ); ?>
+
+<?php wc_get_template( 'myaccount/my-orders.php', array( 'order_count' => $order_count ) ); ?>
+
+<?php wc_get_template( 'myaccount/my-address.php' ); ?>
