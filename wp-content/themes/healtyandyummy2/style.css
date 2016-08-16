@@ -836,8 +836,8 @@ a.shipping-calculator-button {
     width: 50% !important;
 }
 a.shipping-calculator-button:hover {
-	background:rgba(235,235,235);
-    color: #555;
+	background:#555;
+    color: #FFF;
 }
 .login label {
     width: 180px !important;
