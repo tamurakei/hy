@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-16 11:47+0900\n"
+"PO-Revision-Date: 2016-08-16 12:00+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -7297,7 +7297,7 @@ msgstr "電話番号"
 #: includes/admin/settings/class-wc-settings-emails.php:233
 #: includes/class-wc-emails.php:463 templates/single-product-reviews.php:75
 msgid "Email"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/admin/class-wc-admin-profile.php:94
 msgid "Customer Shipping Address"
@@ -10431,11 +10431,11 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:27
 msgid "Emails"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/admin/settings/class-wc-settings-emails.php:43
 msgid "Email Options"
-msgstr "Eメールオプション"
+msgstr "メールオプション"
 
 #: includes/admin/settings/class-wc-settings-emails.php:56
 msgid "Email Notifications"
@@ -10449,7 +10449,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:64
 msgid "Email Sender Options"
-msgstr "Eメール送信オプション"
+msgstr "メール送信オプション"
 
 #: includes/admin/settings/class-wc-settings-emails.php:67
 msgid "\"From\" Name"
@@ -16107,7 +16107,7 @@ msgstr ""
 
 #: includes/class-wc-countries.php:1014
 msgid "Email Address"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/class-wc-coupon.php:775
 msgid "Coupon code applied successfully."
@@ -16285,7 +16285,7 @@ msgstr "住所は正常に変更されました"
 #: templates/myaccount/form-edit-account.php:40
 #: templates/myaccount/form-login.php:91
 msgid "Email address"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/class-wc-form-handler.php:207 includes/wc-user-functions.php:49
 msgid "Please provide a valid email address."
@@ -20518,7 +20518,7 @@ msgstr "住所を保存"
 
 #: templates/myaccount/form-login.php:75 templates/myaccount/form-login.php:112
 msgid "Register"
-msgstr "登録"
+msgstr "新規登録"
 
 #: templates/myaccount/form-login.php:105
 msgid "Anti-spam"
@@ -20660,7 +20660,7 @@ msgstr "備考:"
 
 #: templates/order/order-details-customer.php:35
 msgid "Email:"
-msgstr "Eメール:"
+msgstr "メールアドレス:"
 
 #: templates/order/order-details-customer.php:42
 msgid "Telephone:"
