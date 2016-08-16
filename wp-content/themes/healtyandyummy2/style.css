@@ -833,7 +833,7 @@ input.button.reload{
 	cursor:pointer !important
 }
 input.button.reload:hover {
-	background:#555;
+	background:#555 !important;
     color: #FFF;
 }
 a.shipping-calculator-button{
