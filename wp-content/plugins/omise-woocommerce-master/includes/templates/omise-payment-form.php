@@ -7,11 +7,11 @@
 	クレジットカード選択 : <br/>
 		<?php 
 			foreach($viewData["existingCards"]->data as $card){
-				echo "<input type='radio' name='card_id' value='{$card->id}' />Card ends with {$card->last_digits}<br/>";
+				echo "<input type='radio' name='card_id' value='{$card->id}' />カード番号 : xxxx-xxxx-xxxx-{$card->last_digits}<br/>";
 			}
 		?>
 </p>
-&nbsp;<input type='radio' id='new_card_info' name='card_id' value='' />New payment information
+&nbsp;<input type='radio' id='new_card_info' name='card_id' value='' />新しいクレジットカード
 <?php } ?>
 <fieldset id="new_card_form" class="<?php echo $showExistingCards ? 'omise-hidden':''; ?>">
 	<?php 

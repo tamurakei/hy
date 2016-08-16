@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-16 12:03+0900\n"
+"PO-Revision-Date: 2016-08-16 12:14+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -4878,7 +4878,7 @@ msgstr "配送方法"
 
 #: includes/abstracts/abstract-wc-order.php:1865
 msgid "via %s"
-msgstr ""
+msgstr "- %s"
 
 #: includes/abstracts/abstract-wc-order.php:1870
 #: includes/abstracts/abstract-wc-product.php:1035
@@ -20326,7 +20326,7 @@ msgstr "参考までに、ご注文の詳細は以下の通りです"
 msgid ""
 "Your order is on-hold until we confirm payment has been received. Your order "
 "details are shown below for your reference:"
-msgstr ""
+msgstr " "
 
 #: templates/emails/customer-processing-order.php:28
 #: templates/emails/plain/customer-processing-order.php:25
