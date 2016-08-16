@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-17 00:32+0900\n"
+"PO-Revision-Date: 2016-08-17 00:33+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -20179,7 +20179,7 @@ msgstr " "
 
 #: templates/checkout/form-coupon.php:28
 msgid "Click here to enter your code"
-msgstr "コード入力はこちらから"
+msgstr "コード入力はこちら"
 
 #: templates/checkout/form-login.php:27
 msgid "Returning customer?"
@@ -20187,7 +20187,7 @@ msgstr " "
 
 #: templates/checkout/form-login.php:28
 msgid "Click here to login"
-msgstr "ログインはこちらから"
+msgstr "ログインはこちら"
 
 #: templates/checkout/form-login.php:35
 msgid ""
