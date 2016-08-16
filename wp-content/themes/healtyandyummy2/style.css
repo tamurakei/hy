@@ -532,7 +532,7 @@ td.product-name {
 }
 .col-1 label,
 .col-2 label {
-    width: 150px;
+    width: 200px;
     display: inline-block !important;
     font-family: -webkit-body;
     font-size: 12px;
