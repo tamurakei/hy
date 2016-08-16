@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-16 22:22+0900\n"
+"PO-Revision-Date: 2016-08-16 22:48+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -16150,7 +16150,7 @@ msgstr "コード \"%s\" はすでに適用されており、他のコードと�
 
 #: includes/class-wc-coupon.php:814
 msgid "Coupon usage limit has been reached."
-msgstr "コードの使用量が制限値に達しました。"
+msgstr "コードは1アカウントにつき1回のみ利用"
 
 #: includes/class-wc-coupon.php:817
 msgid "This coupon has expired."
@@ -16405,7 +16405,7 @@ msgstr "エラー"
 
 #: includes/class-wc-form-handler.php:887
 msgid "Username is required."
-msgstr "ユーザー名が必要です"
+msgstr "メールアドレスが必要です"
 
 #: includes/class-wc-form-handler.php:891
 msgid "Password is required."
@@ -20559,11 +20559,11 @@ msgstr ""
 
 #: templates/myaccount/my-address.php:41
 msgid "The following addresses will be used on the checkout page by default."
-msgstr "注文ページでは以下の住所が使用されます。"
+msgstr " "
 
 #: templates/myaccount/my-address.php:70
 msgid "You have not set up this type of address yet."
-msgstr "あなたはまだ住所を設定していません"
+msgstr "登録住所がありません。"
 
 #: templates/myaccount/my-downloads.php:30
 msgid "Available Downloads"
@@ -20576,7 +20576,7 @@ msgstr[0] "ダウンロード可能回数:　残り %s 回"
 
 #: templates/myaccount/my-orders.php:30
 msgid "Recent Orders"
-msgstr "最近の注文状況"
+msgstr "購入履歴"
 
 #: templates/myaccount/my-orders.php:65 templates/myaccount/orders.php:61
 msgid "%s for %s item"
