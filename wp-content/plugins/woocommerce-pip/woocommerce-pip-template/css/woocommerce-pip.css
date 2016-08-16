@@ -52,7 +52,7 @@ p {
 }
 
 .datagrid table td, .datagrid table th {
-    padding: 12px;
+    padding: 12px !important;
     vertical-align: top;
     font-weight: normal;
     font-size: 12px;
