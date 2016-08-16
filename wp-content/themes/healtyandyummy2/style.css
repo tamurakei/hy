@@ -1090,6 +1090,7 @@ small.woocommerce-password-hint {
     float: none !important;
     background: #ebe9eb !important;
     width: auto !important;
+	display:none;
 }
 .woocommerce-MyAccount-content a.woocommerce-Button.button:hover {
     background: #555 !important;
