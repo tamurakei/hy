@@ -50,7 +50,7 @@
 		
 		if ( $( '#payment_method_omise' ).is( ':checked' ) ) {
 			if( !validSelection() ){
-				showError("Please select a card or enter new payment information");
+				showError("クレジットカードを選択するか新しいカードを登録してください。");
 				return false;
 			}
 			
