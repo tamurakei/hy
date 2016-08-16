@@ -42,6 +42,7 @@
 							<?php endif; ?>
 -->
 							<h2><?php _e('Total:', 'woocommerce-pip'); ?><?php echo wc_price($order->order_total); ?></h2>
+							<p>入金方法 : <?php echo ucwords($order->payment_method_title); ?></p>
 						</div>
 
 						<div style="float:right; width: 49%;" class="company">
@@ -147,7 +148,7 @@
 					<tr class="desc" >
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info" scope="row" style="text-align:left;"><?php _e('Total:', 'woocommerce-pip'); ?></th>
-						<td class="totalprice" style="text-align:left;"><?php echo wc_price($order->order_total); ?> <?php _e('- via', 'woocommerce-pip'); ?> <?php echo ucwords($order->payment_method_title); ?></td>
+						<td class="totalprice" style="text-align:left;"><?php echo wc_price($order->order_total); ?></td>
 					</tr>
 				</tfoot>
 				<tbody>
