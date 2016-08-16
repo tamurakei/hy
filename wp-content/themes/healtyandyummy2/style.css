@@ -1012,6 +1012,7 @@ p.contactform-small {
     font-size: 11px;
     -webkit-appearance: none;
     border: solid 1px #000;
+	outline:none;
 }
 div.wpcf7-validation-errors {
     display: none !important;
@@ -1021,7 +1022,7 @@ textarea.wpcf7-not-valid {
     border: 1px solid #a00 !important;
 }
 span.wpcf7-not-valid-tip {
-    display: none;
+    display: none !important;
 }
 #contactForm input[type=submit] {
     font-size: 13px;
@@ -1043,7 +1044,7 @@ span.wpcf7-not-valid-tip {
     outline: none;
     border-radius: 3px;
 }
-#contactForm input:hover {
+#contactForm input[type=submit]:hover {
     background: #555;
     color: #fff;
 }
