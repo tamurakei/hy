@@ -839,6 +839,9 @@ a.shipping-calculator-button:hover {
 	background:#555;
     color: #FFF;
 }
+.coupon input.button:hover {
+    background: #555 !important;
+}
 .login label {
     width: 180px !important;
     display: inline-block !important;
