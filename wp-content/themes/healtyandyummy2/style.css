@@ -1098,7 +1098,6 @@ small.woocommerce-password-hint {
 #shipping_method label {
     width: 140px !important;
     display: inline-block !important;
-    padding-left: 20px !important;
 }
 #shipping_method span.woocommerce-Price-amount.amount {
     width: 55px;
