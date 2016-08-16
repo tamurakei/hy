@@ -29,13 +29,6 @@ wc_print_notices();
 do_action( 'woocommerce_account_navigation' ); ?>
 
 <div class="woocommerce-MyAccount-content">
-
-<?php wc_get_template( 'myaccount/form-edit-account.php' ); ?>
-
-<?php wc_get_template( 'myaccount/my-address.php' ); ?>
-
-<?php wc_get_template( 'myaccount/my-address.php' ); ?>
-
 	<?php
 		/**
 		 * My Account content.
@@ -43,6 +36,10 @@ do_action( 'woocommerce_account_navigation' ); ?>
 		 */
 		do_action( 'woocommerce_account_content' );
 	?>
+
+<h3>登録情報<h3>
+<?php wc_get_template( 'myaccount/form-edit-account.php' ); ?>
+
 </div>
 
 <?php do_action( 'woocommerce_after_my_account' ); ?>
