@@ -157,7 +157,7 @@ function register_omise_wc_gateway_plugin() {
 					$order->add_order_note( "Starting to process payment with Omise" );
 
 					if ( empty( $token ) && empty( $card_id ) ) {
-						throw new Exception( "Please select a card or enter new payment information." );
+						throw new Exception( "クレジットカードを選択するか新しいカードを登録してください。" );
 					}
 
 					$user              = $order->get_user();

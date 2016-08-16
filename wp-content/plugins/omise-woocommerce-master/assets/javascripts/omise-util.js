@@ -2,23 +2,23 @@ var OmiseUtil = new function(){
 	var _validate_card = function(card){
 		var errors = [];
 		if(!card.name || card.name==""){
-			errors.push("Card holder's name is required");
+			errors.push("カード名義を入力してください");
 		}
 		
 		if(!card.number || card.number==""){
-			errors.push("Card number is required");
+			errors.push("カード番号を入力してください");
 		}
 		
 		if(!card.expiration_month || card.expiration_month==""){
-			errors.push("Expiry month is required");
+			errors.push("有効月を入力してください");
 		}
 		
 		if(!card.expiration_year || card.expiration_year==""){
-			errors.push("Expiry year is required");
+			errors.push("有効年を入力してください");
 		}
 		
 		if(!card.security_code || card.security_code==""){
-			errors.push("Security code is required");
+			errors.push("セキュリティコードを入力してください");
 		}
 		
 		return errors;
