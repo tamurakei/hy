@@ -10,14 +10,14 @@
 $the_query = new WP_Query( $args );?>
 <?php if( $the_query->have_posts() ): ?>
 <div class="articleWrap">
-<h2>PRESS</h2>
+		<div class="articleTitle">
+				<h2>PRESS</h2>
+			</div>
 <?php while($the_query->have_posts()): $the_query->the_post();?>
 
 		
 			<div class="article">
-				<div class="articleTitle">
 				
-				</div>
 				<div class="articleTxt">
 					<h2 class="articleTitle"><?php the_title(); ?></h2>
 					<div class="articleContent">
