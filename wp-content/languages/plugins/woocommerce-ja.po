@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-17 01:51+0900\n"
+"PO-Revision-Date: 2016-08-17 02:21+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -15997,7 +15997,7 @@ msgstr ""
 msgid ""
 "No shipping method has been selected. Please double check your address, or "
 "contact us if you need any help."
-msgstr ""
+msgstr "都道府県を選択してください"
 
 #: includes/class-wc-checkout.php:592 includes/class-wc-form-handler.php:323
 msgid "Invalid payment method."
@@ -20075,7 +20075,7 @@ msgstr "ショップへ戻る"
 
 #: templates/cart/cart-shipping.php:48
 msgid "Shipping costs will be calculated once you have provided your address."
-msgstr ""
+msgstr " "
 
 #: templates/cart/cart-shipping.php:50
 msgid ""
@@ -20127,7 +20127,7 @@ msgstr "お支払いへ進む"
 
 #: templates/cart/shipping-calculator.php:33
 msgid "Calculate Shipping"
-msgstr "送料を計算"
+msgstr "都道府県から送料を計算"
 
 #: templates/cart/shipping-calculator.php:56
 #: templates/cart/shipping-calculator.php:62
