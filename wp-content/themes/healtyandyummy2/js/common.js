@@ -81,11 +81,7 @@
 	$(function () {
 		$(window).load(function(){
 			common.init();
-			$('.cartcontents').each(function(){
-			var txt = $(this).text();
-			$(this).text(
-				txt.replace(/item/g,"")
-			);
+			
 		});
 		});
 		//***************************************
