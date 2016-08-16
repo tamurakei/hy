@@ -1115,6 +1115,7 @@ input#ship-to-different-address-checkbox {
     position: absolute;
     left: 0;
     top: 4.5px;
+	margin-left: 0px;
 }
 #ship-to-different-address label.checkbox {
     padding-left: 25px;
