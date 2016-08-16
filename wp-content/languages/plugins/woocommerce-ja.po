@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-16 12:25+0900\n"
+"PO-Revision-Date: 2016-08-16 12:28+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -5536,7 +5536,7 @@ msgstr "%qty%バリエーション"
 #: includes/admin/settings/views/html-webhooks-edit.php:50
 #: includes/class-wc-frontend-scripts.php:331
 msgid "Select an option&hellip;"
-msgstr "オプションを選択&hellip;"
+msgstr "選択してください&hellip;"
 
 #: includes/admin/class-wc-admin-assets.php:235
 msgid ""
@@ -19701,7 +19701,7 @@ msgstr "都道府県を選択"
 
 #: includes/wc-term-functions.php:167
 msgid "Select a category"
-msgstr "選択して下さい"
+msgstr "選択してください"
 
 #: includes/wc-term-functions.php:170
 msgid "Uncategorized"
