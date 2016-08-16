@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h2>PRESS</h2>
+
 <?php $args = array(
 //'numberposts' => 1,
 'post_type' => 'post',
@@ -9,9 +9,11 @@
 );
 $the_query = new WP_Query( $args );?>
 <?php if( $the_query->have_posts() ): ?>
+<div class="articleWrap">
+<h2>PRESS</h2>
 <?php while($the_query->have_posts()): $the_query->the_post();?>
 
-		<div class="articleWrap">
+		
 			<div class="article">
 				<div class="articleTitle">
 				
@@ -25,8 +27,8 @@ $the_query = new WP_Query( $args );?>
 				<!-- //.articleTxt -->
 
 			</div>
-		</div>
+	
 <?php endwhile; endif; ?>
-
+	</div>
 
 <?php get_footer(); ?>
