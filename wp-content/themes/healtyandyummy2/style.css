@@ -763,7 +763,7 @@ form.woocommerce-shipping-calculator {
     display: inline-block !important;
 }
 #omise_cc_form label {
-    width: 27%;
+    width: 180px;
     display: inline-block !important;
     margin: 0 !important;
     padding: 0;
@@ -896,7 +896,7 @@ input#reg_email {
     background: #555 !important;
 }
 .checkout_coupon p.form-row {
-    width: 150px !important;
+    width: 180px !important;
     margin: 15px 15px 0 0 !important;
 }
 .woocommerce .woocommerce-error li strong, .woocommerce .woocommerce-info li strong, .woocommerce .woocommerce-message li strong {
@@ -1004,7 +1004,7 @@ p.contactform {
     margin-bottom: 6px;
 }
 p.contactform-small {
-    width: 150px;
+    width: 180px;
     display: inline-block;
 	padding:0;
 	margin:0;
