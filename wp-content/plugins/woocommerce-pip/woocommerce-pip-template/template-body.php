@@ -109,47 +109,47 @@
 					<tr class="desc" >
 					  <th colspan="2" style="text-align:left; padding-top: 34px !important;">&nbsp;</th>
 						<th class="info"  scope="row" style="text-align:left; padding-top: 34px !important;"><?php _e('Subtotal:', 'woocommerce-pip'); ?></th>
-						<td style="text-align:right;padding-top: 34px !important;"><?php echo $order->get_subtotal_to_display(); ?></td>
+						<td style="text-align:left;padding-top: 34px !important;"><?php echo $order->get_subtotal_to_display(); ?></td>
 					</tr>
 					<?php if (get_option('woocommerce_calc_shipping')=='yes') : ?><tr class="desc" >
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info"  scope="row" style="text-align:left;"><?php _e('Shipping:', 'woocommerce-pip'); ?></th>
-						<td style="text-align:right;"><?php echo $order->get_shipping_to_display(); ?></td>
+						<td style="text-align:left;"><?php echo $order->get_shipping_to_display(); ?></td>
 					</tr><?php endif; ?>
 					<?php echo woocommerce_pip_order_fees($order); ?>
 					<?php if ($order->cart_discount > 0) : ?><tr class="desc" >
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info" scope="row" style="text-align:left;"><?php _e('Cart Discount:', 'woocommerce-pip'); ?></th>
-						<td style="text-align:right;"><?php echo wc_price($order->cart_discount); ?></td>
+						<td style="text-align:left;"><?php echo wc_price($order->cart_discount); ?></td>
 					</tr><?php endif; ?>
 					<?php if ($order->order_discount > 0) : ?><tr class="desc" >
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info" scope="row" style="text-align:left;"><?php _e('Order Discount:', 'woocommerce-pip'); ?></th>
-						<td style="text-align:right;"><?php echo wc_price($order->order_discount); ?></td>
+						<td style="text-align:left;"><?php echo wc_price($order->order_discount); ?></td>
 					</tr><?php endif; ?>
 					<!-- If there is more than one tax... -->
 					<?php $tax_items = $order->get_tax_totals(); ?>
 					<?php if ( count( $tax_items ) > 1 ) : foreach ( $tax_items as $tax_item ) : ?><tr class="desc" >
 					<th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info" scope="row" style="text-align:left;"><?php echo esc_html( $tax_item->label ); ?>:</th>
-						<td style="text-align:rightt;"><?php echo wc_price( $tax_item->amount ); ?></td>
+						<td style="text-align:left;"><?php echo wc_price( $tax_item->amount ); ?></td>
 					</tr>
 					<?php endforeach; ?><tr class="desc" >
 						<th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info" scope="row" style="text-align:right;"><?php _e( 'Total Tax:', 'woocommerce-pip' ); ?></th>
-						<td style="text-align:right;"><?php echo wc_price( $order->get_total_tax() ); ?></td>
+						<td style="text-align:left;"><?php echo wc_price( $order->get_total_tax() ); ?></td>
 					</tr>
 					<!-- if there is only one tax... -->
 					<?php else: foreach ( $tax_items as $tax_item ): ?><tr class="desc" >
 						<th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info" scope="row" style="text-align:left;"><?php echo esc_html( $tax_item->label ); ?>:</th>
-						<td style="text-align:right;"><?php echo wc_price( $tax_item->amount ); ?></td>
+						<td style="text-align:left;"><?php echo wc_price( $tax_item->amount ); ?></td>
 					</tr><?php endforeach; endif; ?>
 					<!-- end if -->
 					<tr class="desc" >
 					  <th colspan="2" style="text-align:left; padding-top: 12px;">&nbsp;</th>
 						<th class="info" scope="row" style="text-align:left;"><?php _e('Total:', 'woocommerce-pip'); ?></th>
-						<td class="totalprice" style="text-align:right;"><?php echo wc_price($order->order_total); ?></td>
+						<td class="totalprice" style="text-align:left;"><?php echo wc_price($order->order_total); ?></td>
 					</tr>
 				</tfoot>
 				<tbody>
