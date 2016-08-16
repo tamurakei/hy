@@ -1,5 +1,9 @@
 		<header>
 					<a class="print" href="#" onclick="window.print()"><?php _e('Print', 'woocommerce-pip'); ?></a>
+					<div class="meta">
+					<p><?php _e('Order', 'woocommerce-pip'); ?> <?php echo $order->get_order_number(); ?></p>
+					<p>注文日 : <time datetime="<?php echo date("Y/m/d", strtotime($order->order_date)); ?>"><?php echo date("Y/m/d", strtotime($order->order_date)); ?></time></p>
+					</div>
 					<div style="float: left; width: 49%;">
 						 <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt='Healthy&yummy' width="300" class="logo">
 						<?php if ($action == 'print_invoice') { ?>
@@ -7,14 +11,9 @@
 						<?php } else { ?>
 						<h3><?php _e('Packing list', 'woocommerce-pip'); ?></h3>
 						<?php } ?>
-						<h3><?php _e('Order', 'woocommerce-pip'); ?> <?php echo $order->get_order_number(); ?> &mdash; <time datetime="<?php echo date("Y/m/d", strtotime($order->order_date)); ?>"><?php echo date("Y/m/d", strtotime($order->order_date)); ?></time></h3>
+						
 					</div>
-					<div style="float: right; width: 49%; text-align:right;">
-						<?php echo woocommerce_pip_print_company_name(); ?>
-						<?php echo woocommerce_pip_print_company_extra(); ?>
-					</div>
-					<div style="clear:both;"></div>
-
+					
 		</header>
 		<section>
 		<div class="article">
@@ -22,7 +21,7 @@
 
 						<div style="float:left; width: 49%;">
 
-							<h3><?php _e('Billing address', 'woocommerce-pip'); ?></h3>
+							 <!--<h3><?php _e('Billing address', 'woocommerce-pip'); ?></h3>-->
 
 							<p>
 								<?php echo $order->get_formatted_billing_address(); ?>
@@ -38,12 +37,19 @@
 								<p><strong><?php _e('Tel:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_phone; ?></p>
 							<?php endif; ?>
 -->
+							<h2><?php _e( 'Total Tax:', 'woocommerce-pip' ); ?><?php echo wc_price($order->order_total); ?></h2>
 						</div>
 
-						<div style="float:right; width: 49%;">
-
-						<h3><?php _e('Shipping address', 'woocommerce-pip'); ?></h3>
-
+						<div style="float:right; width: 49%;" class="company">
+						<!-- company -->
+						
+							<?php echo woocommerce_pip_print_company_extra(); ?>
+							<?php echo woocommerce_pip_print_company_name(); ?>
+							<h3>提坂 清士</h3>
+						<!-- End Company -->
+						<div style="clear:both;"></div>
+						<!--Shipping<h3><?php _e('Shipping address', 'woocommerce-pip'); ?></h3>
+						
 						<?php if (get_post_meta( $order_id, '_wcms_packages', true )) { ?>
 							<?php $packages = get_post_meta( $order_id, '_wcms_packages', true );
 								foreach ($packages as $package):
@@ -61,7 +67,7 @@
 							<?php endif; ?>
 							<?php if (get_post_meta( $order_id, '_tracking_number', true )) : ?>
 								<p><strong><?php _e('Tracking number:', 'woocommerce-pip'); ?></strong> <?php echo get_post_meta( $order_id, '_tracking_number', true ); ?></p>
-							<?php endif; ?>
+							<?php endif; ?> End Shipping-->
 
 						</div>
 
@@ -87,10 +93,10 @@
 			<table>
 				<thead>
 					<tr>
-					  <!--<th scope="col" style="text-align:left; width: 25%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>-->
-						<th scope="col" style="text-align:left; width: 55%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
+					  <th scope="col" style="text-align:left; width: 25%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
+						<th scope="col" style="text-align:left; width: 45%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 10%;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
-						<th scope="col" style="text-align:left; width: 30%;"><?php _e('Price', 'woocommerce-pip'); ?></th>
+						<th scope="col" style="text-align:left; width: 20%;"><?php _e('Price', 'woocommerce-pip'); ?></th>
 					</tr>
 				</thead>
 				<tfoot>
@@ -148,9 +154,9 @@
 			<table>
 				<thead>
 					<tr>
-					  <!--<th scope="col" style="text-align:left; width: 22.5%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>-->
-						<th scope="col" style="text-align:left; width: 57.5%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
-						<th scope="col" style="text-align:left; width: 15%;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
+					  <th scope="col" style="text-align:left; width: 25%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
+						<th scope="col" style="text-align:left; width: 45%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
+						<th scope="col" style="text-align:left; width: 10%;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 20%;"><?php _e('Total Weight', 'woocommerce-pip'); ?></th>
 					</tr>
 				</thead>
