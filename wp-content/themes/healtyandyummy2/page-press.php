@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-
+<h2>PRESS</h2>
 <?php $args = array(
 //'numberposts' => 1,
 'post_type' => 'post',
@@ -14,7 +14,7 @@ $the_query = new WP_Query( $args );?>
 		<div class="articleWrap">
 			<div class="article">
 				<div class="articleTitle">
-				<h2>PRESS</h2>
+				
 				</div>
 				<div class="articleTxt">
 					<h2 class="articleTitle"><?php the_title(); ?></h2>
