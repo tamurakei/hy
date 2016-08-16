@@ -836,6 +836,9 @@ input.button.reload:hover {
 	background:#555 !important;
     color: #FFF;
 }
+.woocommerce-shipping-calculator button.button:hover {
+    background: #555 !important;
+}
 a.shipping-calculator-button{
     padding: 2px 14px;
     border: #ebe9eb 1px solid;
