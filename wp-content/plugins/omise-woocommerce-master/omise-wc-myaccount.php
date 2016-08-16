@@ -45,7 +45,7 @@ if (! class_exists ( 'Omise_MyAccount' )) {
 				$this->omise_customer_id = $test_mode ? $current_user->test_omise_customer_id : $current_user->live_omise_customer_id;
 			}
 			
-			add_action ('woocommerce_after_my_account',array($this, 'init_panel'));
+			//add_action ('woocommerce_after_my_account',array($this, 'init_panel'));
 			add_action ( 'wp_ajax_omise_delete_card', array($this, 'omise_delete_card'));
 			add_action ( 'wp_ajax_omise_create_card', array($this, 'omise_create_card'));
 			add_action ( 'wp_ajax_nopriv_omise_delete_card', array($this, 'no_op'));
