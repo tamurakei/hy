@@ -410,7 +410,7 @@ strong.product-quantity {
     list-style: none!important;
     width: auto;
     word-wrap: break-word;
-	margin-bottom: 25px !important;
+	margin-bottom: 5px !important;
 }
 .woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before {
     font-family: WooCommerce;
@@ -1120,6 +1120,9 @@ input#ship-to-different-address-checkbox {
     padding-left: 25px;
 }
 .woocommerce-error strong {
+    display: none;
+}
+div#customer_details:before {
     display: none;
 }
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
