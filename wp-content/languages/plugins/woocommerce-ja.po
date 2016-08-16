@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-16 12:33+0900\n"
+"PO-Revision-Date: 2016-08-16 21:36+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -20595,7 +20595,7 @@ msgstr ""
 
 #: templates/myaccount/orders.php:121
 msgid "No order has been made yet."
-msgstr ""
+msgstr "購入履歴はありません"
 
 #: templates/myaccount/payment-methods.php:51
 msgid "%s ending in %s"
