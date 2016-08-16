@@ -26,15 +26,17 @@
 							 <!--<h3><?php _e('Billing address', 'woocommerce-pip'); ?></h3>-->
 
 							<p>
-								<?php echo $order->get_formatted_billing_address(); ?>
+								<?php echo $order->get_formatted_billing_address(); ?><br>
+								<?php if ($order->billing_email) : ?>
+								<?php echo $order->billing_email; ?>
+							<?php endif; ?>
 							</p>
+							
 							<?php do_action( 'wc_print_invoice_packing_template_body_after_billing_address', $order ); ?>
 							<?php if (get_post_meta($order->id, 'VAT Number', TRUE) && $action == 'print_invoice') : ?>
 								<p><strong><?php _e('VAT:', 'woocommerce-pip'); ?></strong> <?php echo get_post_meta($order->id, 'VAT Number', TRUE); ?></p>
 							<?php endif; ?>
-<!--						<?php if ($order->billing_email) : ?>
-								<p><strong><?php _e('Email:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_email; ?></p>
-							<?php endif; ?>
+<!--						
 							<?php if ($order->billing_phone) : ?>
 								<p><strong><?php _e('Tel:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_phone; ?></p>
 							<?php endif; ?>
