@@ -41,7 +41,7 @@ get_header( 'shop' ); ?>
 					
 					<div class="itembox">
 					<h2 class="articleTitle"><?php the_field('name'); ?></h2>
-					<p class="price"><?php the_field('price'); ?> - (tax incl.) &nbsp;&nbsp;</p>
+					<p class="price"><?php the_field('saleprice'); ?> - (tax incl.) &nbsp;&nbsp;</p>
 					<?php if(get_field('button')): ?>
 						<?php if(get_field('button') == "visible"): ?>
 					<div class="buybutton">
