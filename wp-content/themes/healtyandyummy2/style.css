@@ -1126,6 +1126,9 @@ input#ship-to-different-address-checkbox {
 div#customer_details:before {
     display: none;
 }
+li.woocommerce-MyAccount-navigation-link--dashboard {
+    display: none;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
