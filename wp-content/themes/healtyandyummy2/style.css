@@ -829,18 +829,24 @@ small.shipped_via {
     padding: 20px 0;
     border-top: 1px solid #ebe9eb;
 }
-a.shipping-calculator-button {
+a.shipping-calculator-button,
+a.reload{
     padding: 2px 14px;
     border: #ebe9eb 1px solid;
     color: #555;
     width: 50% !important;
 }
-a.shipping-calculator-button:hover {
+a.shipping-calculator-button:hover,
+a.reload:hover {
 	background:#555;
     color: #FFF;
 }
 .coupon input.button:hover {
     background: #555 !important;
+}
+input#place_order:hover {
+    background: #F966B4 !important;
+    color: #fff !important;
 }
 .login label {
     width: 180px !important;
