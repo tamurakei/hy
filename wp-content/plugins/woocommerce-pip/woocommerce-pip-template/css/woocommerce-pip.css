@@ -52,7 +52,7 @@ p {
 }
 
 .datagrid table td, .datagrid table th {
-    padding: 3px 4px;
+    padding: 12px;
     vertical-align: top;
     font-weight: normal;
     font-size: 12px;
@@ -110,4 +110,28 @@ p {
 	float: left;
 	width: 80%;
 	margin-left: 0;
+}
+.meta {
+    text-align: right;
+}
+.meta p {
+    line-height: 6px;
+}
+.printhead {
+    float: none !important;
+}
+.company {
+    line-height: 20px;
+    font-size: 12px;
+}
+.company h3 {
+    font-weight: normal;
+    font-size: 12px;
+}
+.article p {
+    margin: 0;
+}
+.article h2 {
+    font-weight: 200;
+    font-size: 20px;
 }

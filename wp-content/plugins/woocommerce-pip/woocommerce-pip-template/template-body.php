@@ -45,8 +45,8 @@
 						<div style="float:right; width: 49%;" class="company">
 						<!-- company -->
 						
-							<?php echo woocommerce_pip_print_company_extra(); ?>
-							<?php echo woocommerce_pip_print_company_name(); ?>
+							<p><?php echo woocommerce_pip_print_company_extra(); ?></p>
+							<p><?php echo woocommerce_pip_print_company_name(); ?></p>
 							<h3>提坂 清士</h3>
 						<!-- End Company -->
 						<div style="clear:both;"></div>
@@ -95,10 +95,10 @@
 			<table>
 				<thead>
 					<tr>
-					  <th scope="col" style="text-align:left; width: 25%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
+					  <th scope="col" style="text-align:left; width: 15%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 45%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 10%;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
-						<th scope="col" style="text-align:left; width: 20%;"><?php _e('Price', 'woocommerce-pip'); ?></th>
+						<th scope="col" style="text-align:left; width: 30%;"><?php _e('Price', 'woocommerce-pip'); ?></th>
 					</tr>
 				</thead>
 				<tfoot>
@@ -156,10 +156,10 @@
 			<table>
 				<thead>
 					<tr>
-					  <th scope="col" style="text-align:left; width: 25%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
+					  <th scope="col" style="text-align:left; width: 15%;"><?php _e('SKU', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 45%;"><?php _e('Product', 'woocommerce-pip'); ?></th>
 						<th scope="col" style="text-align:left; width: 10%;"><?php _e('Quantity', 'woocommerce-pip'); ?></th>
-						<th scope="col" style="text-align:left; width: 20%;"><?php _e('Total Weight', 'woocommerce-pip'); ?></th>
+						<th scope="col" style="text-align:left; width: 30%;"><?php _e('Total Weight', 'woocommerce-pip'); ?></th>
 					</tr>
 				</thead>
 				<tbody>
