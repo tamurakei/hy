@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-17 00:33+0900\n"
+"PO-Revision-Date: 2016-08-17 00:36+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -15937,11 +15937,11 @@ msgstr ""
 
 #: includes/class-wc-checkout.php:106
 msgid "Account username"
-msgstr "アカウントのユーザー名"
+msgstr "ユーザー名"
 
 #: includes/class-wc-checkout.php:115
 msgid "Account password"
-msgstr "アカウントのパスワード"
+msgstr "パスワード"
 
 #: includes/class-wc-checkout.php:206 includes/class-wc-checkout.php:217
 #: includes/class-wc-checkout.php:219 includes/class-wc-checkout.php:244
