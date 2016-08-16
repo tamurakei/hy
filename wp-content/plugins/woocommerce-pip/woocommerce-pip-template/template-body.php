@@ -1,10 +1,12 @@
 		<header>
 					<a class="print" href="#" onclick="window.print()"><?php _e('Print', 'woocommerce-pip'); ?></a>
 					<div class="meta">
-					<p><?php _e('Order', 'woocommerce-pip'); ?> <?php echo $order->get_order_number(); ?></p>
-					<p>注文日 : <time datetime="<?php echo date("Y/m/d", strtotime($order->order_date)); ?>"><?php echo date("Y/m/d", strtotime($order->order_date)); ?></time></p>
+						<div class="right">
+							<p><?php _e('Order', 'woocommerce-pip'); ?> <?php echo $order->get_order_number(); ?></p>
+							<p>注文日 : <time datetime="<?php echo date("Y/m/d", strtotime($order->order_date)); ?>"><?php echo date("Y/m/d", strtotime($order->order_date)); ?></time></p>
+						</div>
 					</div>
-					<div style="float: left; width: 49%;">
+					<div style="float: left; width: 49%;"  class="printhead">
 						 <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt='Healthy&yummy' width="300" class="logo">
 						<?php if ($action == 'print_invoice') { ?>
 						<h3><?php _e('Invoice', 'woocommerce-pip'); ?> (<?php echo woocommerce_pip_invoice_number($order->id); ?>)</h3>
@@ -37,7 +39,7 @@
 								<p><strong><?php _e('Tel:', 'woocommerce-pip'); ?></strong> <?php echo $order->billing_phone; ?></p>
 							<?php endif; ?>
 -->
-							<h2><?php _e( 'Total Tax:', 'woocommerce-pip' ); ?><?php echo wc_price($order->order_total); ?></h2>
+							<h2><?php _e('Total:', 'woocommerce-pip'); ?><?php echo wc_price($order->order_total); ?></h2>
 						</div>
 
 						<div style="float:right; width: 49%;" class="company">
