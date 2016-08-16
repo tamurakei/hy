@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-16 21:45+0900\n"
+"PO-Revision-Date: 2016-08-16 22:22+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -20081,9 +20081,7 @@ msgstr ""
 msgid ""
 "There are no shipping methods available. Please double check your address, "
 "or contact us if you need any help."
-msgstr ""
-"配送が可能は方法が無いようです。住所を再度ご確認ください。また、必要があれば"
-"お問い合わせください。"
+msgstr "都道府県を選択してください。"
 
 #: templates/cart/cart-totals.php:28
 msgid "Cart Totals"
@@ -20460,8 +20458,8 @@ msgid ""
 "your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
 "account details%2$s."
 msgstr ""
-"マイアカウントページでは %1$s最近の注文%2$sを確認したり、  %3$s登録住所の変"
-"更%2$s や %4$sパスワード、登録情報の変更が可能です%2$s。"
+"マイアカウントページでは %1$s購入履歴%2$sの確認、  %3$s登録住所の変更%2$s や "
+"%4$sパスワード、登録情報の変更が可能です%2$s。"
 
 #: templates/myaccount/downloads.php:59
 msgid "&infin;"
@@ -20595,7 +20593,7 @@ msgstr ""
 
 #: templates/myaccount/orders.php:121
 msgid "No order has been made yet."
-msgstr "購入履歴はありません"
+msgstr "購入履歴はありません。"
 
 #: templates/myaccount/payment-methods.php:51
 msgid "%s ending in %s"
