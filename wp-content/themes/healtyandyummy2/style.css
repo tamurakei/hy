@@ -411,6 +411,7 @@ strong.product-quantity {
     width: auto;
     word-wrap: break-word;
 	margin-bottom: 5px !important;
+	font-size:11px !important;
 }
 .woocommerce .woocommerce-error:before, .woocommerce .woocommerce-info:before, .woocommerce .woocommerce-message:before {
     font-family: WooCommerce;
@@ -900,8 +901,8 @@ input#reg_email {
     margin: 15px 15px 0 0 !important;
 }
 .woocommerce .woocommerce-error li strong, .woocommerce .woocommerce-info li strong, .woocommerce .woocommerce-message li strong {
-    font-size: 10px !important;
-    color: #b81c23 !important;
+    font-size: 11px !important;
+    color: #555 !important;
 }
 .woocommerce ul.woocommerce-error {
     padding: 0 !important;
