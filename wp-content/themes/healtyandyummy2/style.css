@@ -1135,6 +1135,10 @@ p#billing_address_2_field {
 #customer_details .col-2 {
     margin-top: -20px;
 }
+.payment_box.payment_method_bankjp {
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
