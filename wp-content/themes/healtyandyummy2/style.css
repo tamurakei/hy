@@ -1051,6 +1051,22 @@ span.wpcf7-not-valid-tip {
     background: #555;
     color: #fff;
 }
+p#calc_shipping_state_field {
+    margin: 5px 0 1px !important;
+}
+.select2-results {
+    padding: 4px;
+    font-size: 12px !important;
+    font-family: -webkit-body !important;
+    color: #555 !important;
+}
+.select2-search {
+    font-size: 11px !important;
+    padding-top: 4px !important;
+}
+.select2-results li {
+    margin: 1px 0 !important;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
