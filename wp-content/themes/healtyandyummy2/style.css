@@ -838,7 +838,7 @@ a.shipping-calculator-button:hover {
     color: #555;
 }
 .login label {
-    width: 200px !important;
+    width: 180px !important;
     display: inline-block !important;
 }
 .login input.button {
@@ -849,7 +849,7 @@ a.shipping-calculator-button:hover {
     background: #555 !important;
 }
 #customer_login label {
-    width: 200px !important;
+    width: 180px !important;
 }
 input#username {
     width: 50% !important;
