@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Stable (latest release)\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2016-08-15 13:11+0900\n"
-"PO-Revision-Date: 2016-08-16 00:14+0900\n"
+"PO-Revision-Date: 2016-08-16 12:33+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -4878,7 +4878,7 @@ msgstr "配送方法"
 
 #: includes/abstracts/abstract-wc-order.php:1865
 msgid "via %s"
-msgstr ""
+msgstr "- %s"
 
 #: includes/abstracts/abstract-wc-order.php:1870
 #: includes/abstracts/abstract-wc-product.php:1035
@@ -5536,7 +5536,7 @@ msgstr "%qty%バリエーション"
 #: includes/admin/settings/views/html-webhooks-edit.php:50
 #: includes/class-wc-frontend-scripts.php:331
 msgid "Select an option&hellip;"
-msgstr "オプションを選択&hellip;"
+msgstr "選択してください&hellip;"
 
 #: includes/admin/class-wc-admin-assets.php:235
 msgid ""
@@ -7297,7 +7297,7 @@ msgstr "電話番号"
 #: includes/admin/settings/class-wc-settings-emails.php:233
 #: includes/class-wc-emails.php:463 templates/single-product-reviews.php:75
 msgid "Email"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/admin/class-wc-admin-profile.php:94
 msgid "Customer Shipping Address"
@@ -10431,11 +10431,11 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:27
 msgid "Emails"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/admin/settings/class-wc-settings-emails.php:43
 msgid "Email Options"
-msgstr "Eメールオプション"
+msgstr "メールオプション"
 
 #: includes/admin/settings/class-wc-settings-emails.php:56
 msgid "Email Notifications"
@@ -10449,7 +10449,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:64
 msgid "Email Sender Options"
-msgstr "Eメール送信オプション"
+msgstr "メール送信オプション"
 
 #: includes/admin/settings/class-wc-settings-emails.php:67
 msgid "\"From\" Name"
@@ -15971,7 +15971,7 @@ msgstr "は電話番号として正しくありません"
 
 #: includes/class-wc-checkout.php:488 includes/class-wc-form-handler.php:130
 msgid "is not a valid email address."
-msgstr "有効なEメールアドレスではありません"
+msgstr "有効なメールアドレスではありません"
 
 #: includes/class-wc-checkout.php:506
 msgid "is not valid. Please enter one of the following:"
@@ -16045,7 +16045,7 @@ msgstr "会社名"
 
 #: includes/class-wc-countries.php:584
 msgid "Town / City"
-msgstr "市区町村"
+msgstr "TOWN NAME"
 
 #: includes/class-wc-countries.php:591
 msgid "State / County"
@@ -16107,7 +16107,7 @@ msgstr ""
 
 #: includes/class-wc-countries.php:1014
 msgid "Email Address"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/class-wc-coupon.php:775
 msgid "Coupon code applied successfully."
@@ -16285,15 +16285,15 @@ msgstr "住所は正常に変更されました"
 #: templates/myaccount/form-edit-account.php:40
 #: templates/myaccount/form-login.php:91
 msgid "Email address"
-msgstr "Eメール"
+msgstr "メールアドレス"
 
 #: includes/class-wc-form-handler.php:207 includes/wc-user-functions.php:49
 msgid "Please provide a valid email address."
-msgstr "正しいEメールアドレス形式で入力して下さい"
+msgstr "正しいメールアドレス形式で入力して下さい"
 
 #: includes/class-wc-form-handler.php:209
 msgid "This email address is already registered."
-msgstr "このEメールアドレスは既に登録されています"
+msgstr "このメールアドレスは既に登録されています"
 
 #: includes/class-wc-form-handler.php:215
 msgid "Your current password is incorrect."
@@ -16413,7 +16413,7 @@ msgstr "パスワードが必要です"
 
 #: includes/class-wc-form-handler.php:900
 msgid "A user could not be found with this email address."
-msgstr "このEメールアドレスのユーザーは見つかりませんでした"
+msgstr "このメールアドレスのユーザーは見つかりませんでした"
 
 #: includes/class-wc-form-handler.php:972
 msgid "Please enter your password."
@@ -16945,7 +16945,7 @@ msgstr "商品購入"
 
 #: includes/class-wc-product-variable.php:43
 msgid "Select options"
-msgstr "オプションを選択"
+msgstr "都道府県を選択"
 
 #: includes/class-wc-product-variable.php:745
 msgid ""
@@ -17886,7 +17886,7 @@ msgstr "高度なオプション"
 
 #: includes/gateways/paypal/includes/settings-paypal.php:59
 msgid "Receiver Email"
-msgstr "受信用Eメールアドレス"
+msgstr "受信用メールアドレス"
 
 #: includes/gateways/paypal/includes/settings-paypal.php:61
 msgid ""
@@ -18689,12 +18689,12 @@ msgstr "ログイン"
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:238
 msgid "Enter a username or e-mail address."
-msgstr "ユーザー名またはEメールアドレスを入力して下さい"
+msgstr "メールアドレスを入力して下さい"
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:254
 #: includes/shortcodes/class-wc-shortcode-my-account.php:259
 msgid "Invalid username or e-mail."
-msgstr "ユーザー名またはEメールアドレスが無効です"
+msgstr "ユーザー名またはメールアドレスが無効です"
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:272
 msgid "Password reset is not allowed for this user"
@@ -19697,11 +19697,11 @@ msgstr "選択して下さい&hellip;"
 #: includes/wc-template-functions.php:1913
 #: includes/wc-template-functions.php:2060
 msgid "Choose an option"
-msgstr "選択してください"
+msgstr "都道府県を選択"
 
 #: includes/wc-term-functions.php:167
 msgid "Select a category"
-msgstr "選択して下さい"
+msgstr "選択してください"
 
 #: includes/wc-term-functions.php:170
 msgid "Uncategorized"
@@ -19710,7 +19710,7 @@ msgstr "未分類"
 #: includes/wc-user-functions.php:53
 msgid "An account is already registered with your email address. Please login."
 msgstr ""
-"すでにあなたのEメールアドレスでアカウント登録されています。ログインしてくださ"
+"すでにあなたのメールアドレスでアカウント登録されています。ログインしてくださ"
 "い。"
 
 #: includes/wc-user-functions.php:61
@@ -20054,7 +20054,7 @@ msgstr ""
 
 #: templates/auth/form-login.php:35 templates/myaccount/form-login.php:44
 msgid "Username or email address"
-msgstr "ユーザー名またはEメールアドレス"
+msgstr "メールアドレス"
 
 #: templates/auth/form-login.php:39 templates/global/form-login.php:39
 #: templates/myaccount/form-login.php:48 templates/myaccount/form-login.php:98
@@ -20326,7 +20326,7 @@ msgstr "参考までに、ご注文の詳細は以下の通りです"
 msgid ""
 "Your order is on-hold until we confirm payment has been received. Your order "
 "details are shown below for your reference:"
-msgstr ""
+msgstr " "
 
 #: templates/emails/customer-processing-order.php:28
 #: templates/emails/plain/customer-processing-order.php:25
@@ -20425,7 +20425,7 @@ msgstr "金額: %s"
 #: templates/global/form-login.php:35
 #: templates/myaccount/form-lost-password.php:30
 msgid "Username or email"
-msgstr "ユーザー名またはEメールアドレス"
+msgstr "メールアドレス"
 
 #: templates/global/form-login.php:51 templates/myaccount/form-login.php:58
 msgid "Remember me"
@@ -20518,7 +20518,7 @@ msgstr "住所を保存"
 
 #: templates/myaccount/form-login.php:75 templates/myaccount/form-login.php:112
 msgid "Register"
-msgstr "登録"
+msgstr "新規登録"
 
 #: templates/myaccount/form-login.php:105
 msgid "Anti-spam"
@@ -20529,9 +20529,8 @@ msgid ""
 "Lost your password? Please enter your username or email address. You will "
 "receive a link to create a new password via email."
 msgstr ""
-"パスワードを忘れましたか？ユーザー名かEメールアドレスを入力して下さい。新しい"
-"パスワードを作成するためのリンクが添付されたメールが送信されます。ご確認下さ"
-"い。"
+"パスワードを忘れましたか？メールアドレスを入力して下さい。新しいパスワードを"
+"作成するためのリンクが添付されたメールが送信されます。ご確認下さい。"
 
 #: templates/myaccount/form-lost-password.php:40
 msgid "Reset Password"
@@ -20637,11 +20636,11 @@ msgstr "注文確認メールに記載"
 
 #: templates/order/form-tracking.php:32
 msgid "Billing Email"
-msgstr "Eメールアドレス"
+msgstr "メールアドレス"
 
 #: templates/order/form-tracking.php:32
 msgid "Email you used during checkout."
-msgstr "注文時に使用したEメールアドレス"
+msgstr "注文時に使用したメールアドレス"
 
 #: templates/order/form-tracking.php:35
 msgid "Track"
@@ -20661,7 +20660,7 @@ msgstr "備考:"
 
 #: templates/order/order-details-customer.php:35
 msgid "Email:"
-msgstr "Eメール:"
+msgstr "メールアドレス:"
 
 #: templates/order/order-details-customer.php:42
 msgid "Telephone:"
