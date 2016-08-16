@@ -1067,6 +1067,12 @@ p#calc_shipping_state_field {
 .select2-results li {
     margin: 1px 0 !important;
 }
+.woocommerce-password-strength.short {
+    display: none !important;
+}
+small.woocommerce-password-hint {
+    display: none !important;
+}
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
