@@ -6,7 +6,9 @@ body {
 	font: normal 10px/100% Verdana, Arial, Helvetica, sans-serif;
 	-webkit-print-color-adjust: exact;
 }
-
+section {
+    padding: 60px 0 0;
+}
 dl.variation {
 	width: 100%;
 	overflow: hidden;
