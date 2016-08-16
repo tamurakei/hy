@@ -908,9 +908,9 @@ input#reg_email {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
 }
-.checkout ul.woocommerce-error {
+/*.checkout ul.woocommerce-error {
     display: none;
-}
+}*/
 
 input#omise_card_name {
     width: 20em !important;
@@ -1026,9 +1026,9 @@ p.contactform-small {
     border: solid 1px #000;
 	outline:none;
 }
-div.wpcf7-validation-errors {
+/*div.wpcf7-validation-errors {
     display: none !important;
-}
+}*/
 input.wpcf7-not-valid,
 textarea.wpcf7-not-valid {
     border: 1px solid #a00 !important;
