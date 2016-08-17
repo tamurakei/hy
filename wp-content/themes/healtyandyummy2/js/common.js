@@ -1,4 +1,4 @@
-(function($){
+jQuery(document).ready(function($){
 	var WW = $(window).width();
 	var WH = $(window).height();
 	var z = 0;
@@ -96,4 +96,4 @@
 			return false;
 		});
 	});
-})(jQuery);
+});
