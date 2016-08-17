@@ -71,7 +71,7 @@
 		 });
 	 }
 
-	}
+	};
 
 
 
@@ -81,9 +81,8 @@
 	$(function () {
 		$(window).load(function(){
 			common.init();
-			
 		});
-		});
+	});
 		//***************************************
 		//SMOOTH SCROLL
 		//***************************************
@@ -95,5 +94,4 @@
 			$('body,html').animate({scrollTop:position}, speed, 'swing');
 			return false;
 		});
-	});
 })(jQuery);
