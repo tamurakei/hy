@@ -72,24 +72,20 @@
 	 }
 
 	};
-})(jQuery);
 
 
 	//***************************************
 	// WINDOW LOAD
 	//***************************************
-(function($){
 	$(function () {
 		$(window).load(function(){
 			common.init();
 		});
 	});
-})(jQuery);
 
 	//***************************************
 	//SMOOTH SCROLL
 	//***************************************
-(function($){
 	$('a[href^=#]').click(function() {
 		var speed = 400;
 		var href= $(this).attr("href");
