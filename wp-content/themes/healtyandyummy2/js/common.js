@@ -28,15 +28,15 @@
 			}
 			if(ua_type){
 				display_type = "is_smart";
-				viewpost_str = "width=640,initial-scale=1,user-scalable=0";
+				viewpost_str = "width=640";
 				WW = 640;
 			}else if(WW>768){
 				display_type = "is_pc";
-				viewpost_str = "width=1214,initial-scale=1,user-scalable=0";
+				viewpost_str = "width=1214";
 				$(".navArea").width("auto");
 			}else if(WW<=768 && WW>640){
 				display_type = "is_tablet";
-				viewpost_str = "width=1214,initial-scale=1,user-scalable=0";
+				viewpost_str = "width=1214";
 			}
 			$("meta[name='viewport']").attr('content','').attr('content',viewpost_str);
 			$("body").attr("class","").addClass(display_type);
