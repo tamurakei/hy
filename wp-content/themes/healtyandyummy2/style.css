@@ -1214,9 +1214,6 @@ textarea#order_comments {
 	.open .navArea{
 		display:block;
 	}
-
-
-
 	.articleWrap{
 		padding: 60px 0 120px 140px;
 		width:460px;
@@ -1224,6 +1221,10 @@ textarea#order_comments {
 	.p_img{
 		width:460px;
 	}
-
-
+	.navFoot {
+		padding-left: 80px;
+	}
+	.menu-sidemenu-container {
+		padding: 60px 40px 0 80px;
+	}
 }
