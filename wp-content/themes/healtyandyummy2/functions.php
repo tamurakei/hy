@@ -102,12 +102,11 @@ function add_my_account() {
 }
 add_action( 'woocommerce_after_my_account' , 'add_my_account' ,'0' );
 */
-function my_script_method () {
-    wp_deregister_script('jquery');
-    wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(), '1.12.4');
-    wp_enqueue_script('common', get_template_directory_uri() . '/js/common.js', array('jquery') );
+
+function my_scripts_method () {
+    wp_enqueue_script('hy-common', get_template_directory_uri() . '/js/common.js', array( 'jquery' ), '20160817', true );
 }
 
-add_action( 'wp_enqueue_scripts', 'my_scripts_method' );
+add_action( 'wp_print_scripts', 'my_scripts_method' );
 
 ?>
