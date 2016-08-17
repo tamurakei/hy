@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+(function($){
 	var WW = $(window).width();
 	var WH = $(window).height();
 	var z = 0;
@@ -71,7 +71,7 @@ jQuery(document).ready(function($){
 		 });
 	 }
 
-	}
+	};
 
 
 
@@ -81,9 +81,8 @@ jQuery(document).ready(function($){
 	$(function () {
 		$(window).load(function(){
 			common.init();
-			
 		});
-		});
+	});
 		//***************************************
 		//SMOOTH SCROLL
 		//***************************************
@@ -95,4 +94,4 @@ jQuery(document).ready(function($){
 			$('body,html').animate({scrollTop:position}, speed, 'swing');
 			return false;
 		});
-});
+})(jQuery);
