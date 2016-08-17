@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+(function($){
 	var WW = $(window).width();
 	var WH = $(window).height();
 	var z = 0;
@@ -96,4 +96,4 @@ jQuery(document).ready(function($){
 			return false;
 		});
 	});
-});
+})(jQuery);
