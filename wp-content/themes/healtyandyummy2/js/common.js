@@ -14,7 +14,7 @@
 		init : function(){
 			common.ww_check();
 			common.fit_width();
-			common.contents_fadein();
+			/*common.contents_fadein();*/
 			common.menu_toggle();
 		},
 		ww_check : function(){
@@ -38,7 +38,7 @@
 				display_type = "is_tablet";
 				viewpost_str = "width=1214";
 			}
-			$("meta[name='viewport']").attr('content','').attr('content',viewpost_str);
+			/*$("meta[name='viewport']").attr('content','').attr('content',viewpost_str);*/
 			$("body").attr("class","").addClass(display_type);
 		},
 		fit_width : function(){
