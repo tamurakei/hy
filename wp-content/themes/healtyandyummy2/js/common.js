@@ -1,4 +1,4 @@
-(function($){
+jQuery(document).ready(function($){
 	var WW = $(window).width();
 	var WH = $(window).height();
 	var z = 0;
@@ -95,5 +95,4 @@
 			$('body,html').animate({scrollTop:position}, speed, 'swing');
 			return false;
 		});
-	});
-})(jQuery);
+});
