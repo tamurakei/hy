@@ -12,7 +12,6 @@
   <title><?php bloginfo(name); ?><?php wp_title ( '|', true, 'left' ); ?></title>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=1040">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="2011年に創業して以来、生体の生理を考慮した食事の探求、優れたエルゴジェニック・エイドの研究、創造あるライフスタイルの追求を続けています。ヘルシーヤミー水素販売。" />
   <meta name="keywords" content="Healthy&Yummy,ヘルシーアンドヤミー,ヘルシヤミー,提坂キヨ,KIYO,癌,糖尿病,アトピー,水素,水素水,抗酸化,アンチエイジング,健康,効果,ガン,ライフスタイル,白髪,自然療法,サプリメント,治療,アンチオキシダント," />
