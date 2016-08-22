@@ -31,10 +31,9 @@
 					</div>
 					
 					<div class="txt bordertop"><?php the_field('text'); ?></div>
-					<div class="copy"><?php the_field('copy'); ?></div>
 					<div class="policy bordertop"><?php the_field('policy'); ?></div>
-					
 					<div class="material bordertop"><?php the_field('material'); ?></div>
+					<div class="copy"><?php the_field('copy'); ?></div>
 				</div>
 
 			</div>
