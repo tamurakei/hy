@@ -1167,6 +1167,7 @@ textarea#order_comments {
     height: 200px;
 }
 table.p_table {
+    font-size: 12px;
     margin: 10px;
 }
 .p_table tr {
