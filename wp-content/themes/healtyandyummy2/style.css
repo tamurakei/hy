@@ -1166,6 +1166,19 @@ p#billing_address_2_field {
 textarea#order_comments {
     height: 200px;
 }
+table.p_table {
+    margin: 10px;
+}
+.p_table tr {
+    border-bottom: 1px solid #ebe9eb;
+}
+td.p_label {
+    width: 25%;
+}
+.p_table td {
+    padding: 6px 0 6px 15px;
+}
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // SMART PHONE
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
