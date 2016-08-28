@@ -1207,6 +1207,7 @@ td.p_label {
 		cursor:pointer;
 	}
 	.navArea{
+		min-height: 100vh;
 		z-index:10;
 		background:#fff;
 		box-sizing: border-box;
@@ -1260,4 +1261,5 @@ td.p_label {
 	 input[type="button"],input[type="submit"] {
 		-webkit-appearance: none;
 	  }
+	  
 }
