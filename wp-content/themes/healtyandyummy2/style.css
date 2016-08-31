@@ -924,9 +924,12 @@ input#reg_email {
     color: #555 !important;
 }
 .woocommerce ul.woocommerce-error {
-    padding: 0 !important;
+    padding: 10px !important;
     margin-top: 10px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 0px !important;
+    color: #b81c23 !important;
+    border: #b81c23 1px solid;
+    display: inline-block;
 }
 /*.checkout ul.woocommerce-error {
     display: none;
