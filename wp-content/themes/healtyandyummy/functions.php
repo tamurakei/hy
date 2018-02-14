@@ -87,4 +87,11 @@ function create_product_taxonomies() {
     register_taxonomy( 'prod_tag', 'product', $args );
 }
 
+function ez_sparrow_remove_password_strength() {
+	if ( wp_script_is( 'wc-password-strength-meter', 'enqueued' ) ) {
+		wp_dequeue_script( 'wc-password-strength-meter' );
+	}
+}
+add_action( 'wp_print_scripts', 'ez_sparrow_remove_password_strength', 100 );
+
 ?>
